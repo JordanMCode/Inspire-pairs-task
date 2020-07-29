@@ -7,7 +7,7 @@
  */
 /* Document
    ========================================================================== */
-@import url("https://fonts.googleapis.com/css?family=Poppins&display=swap");
+/* line 13, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 html {
   font-family: sans-serif;
   /* 1 */
@@ -16,195 +16,241 @@ html {
   -ms-text-size-adjust: 100%;
   /* 3 */
   -webkit-text-size-adjust: 100%;
-  /* 3 */ }
+  /* 3 */
+}
 
 /* Sections
-   ========================================================================== */
+     ========================================================================== */
 /**
- * Remove the margin in all browsers (opinionated).
- */
+   * Remove the margin in all browsers (opinionated).
+   */
+/* line 27, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 body {
-  margin: 0; }
+  margin: 0;
+}
 
 /**
- * Add the correct display in IE 9-.
- */
+   * Add the correct display in IE 9-.
+   */
+/* line 35, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 article,
 aside,
 footer,
 header,
 nav,
 section {
-  display: block; }
+  display: block;
+}
 
 /* Grouping content
-   ========================================================================== */
+     ========================================================================== */
 /**
- * Add the correct display in IE 9-.
- * 1. Add the correct display in IE.
- */
+   * Add the correct display in IE 9-.
+   * 1. Add the correct display in IE.
+   */
+/* line 52, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 figcaption,
 figure,
 main {
   /* 1 */
-  display: block; }
+  display: block;
+}
 
 /**
- * Add the correct margin in IE 8.
- */
+   * Add the correct margin in IE 8.
+   */
+/* line 62, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 figure {
-  margin: 1em 40px; }
+  margin: 1em 40px;
+}
 
 /**
- * 1. Add the correct box sizing in Firefox.
- * 2. Show the overflow in Edge and IE.
- */
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+/* line 71, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
   overflow: visible;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+/* line 82, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Text-level semantics
-   ========================================================================== */
+     ========================================================================== */
 /**
- * 1. Remove the gray background on active links in IE 10.
- * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
- */
+   * 1. Remove the gray background on active links in IE 10.
+   * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+   */
+/* line 95, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 a {
   background-color: transparent;
   /* 1 */
   -webkit-text-decoration-skip: objects;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
- * Remove the outline on focused links when they are also active or hovered
- * in all browsers (opinionated).
- */
+   * Remove the outline on focused links when they are also active or hovered
+   * in all browsers (opinionated).
+   */
+/* line 105, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 a:active,
 a:hover {
-  outline-width: 0; }
+  outline-width: 0;
+}
 
 /**
- * 1. Remove the bottom border in Firefox 39-.
- * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
- */
+   * 1. Remove the bottom border in Firefox 39-.
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+/* line 115, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
   text-decoration: underline;
   /* 2 */
   text-decoration: underline dotted;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
- * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
- */
+   * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+   */
+/* line 125, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 b,
 strong {
-  font-weight: inherit; }
+  font-weight: inherit;
+}
 
 /**
- * Add the correct font weight in Chrome, Edge, and Safari.
- */
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+/* line 134, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 b,
 strong {
-  font-weight: bolder; }
+  font-weight: bolder;
+}
 
 /**
- * 1. Correct the inheritance and scaling of font size in all browsers.
- * 2. Correct the odd `em` font sizing in all browsers.
- */
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+/* line 144, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 code,
 kbd,
 samp {
   font-family: monospace, monospace;
   /* 1 */
   font-size: 1em;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
- * Add the correct font style in Android 4.3-.
- */
+   * Add the correct font style in Android 4.3-.
+   */
+/* line 155, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 dfn {
-  font-style: italic; }
+  font-style: italic;
+}
 
 /**
- * Add the correct background and color in IE 9-.
- */
+   * Add the correct background and color in IE 9-.
+   */
+/* line 163, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 mark {
   background-color: #ff0;
-  color: #000; }
+  color: #000;
+}
 
 /**
- * Add the correct font size in all browsers.
- */
+   * Add the correct font size in all browsers.
+   */
+/* line 172, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 small {
-  font-size: 80%; }
+  font-size: 80%;
+}
 
 /**
- * Prevent `sub` and `sup` elements from affecting the line height in
- * all browsers.
- */
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+/* line 181, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 sub,
 sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
+/* line 189, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 sub {
-  bottom: -0.25em; }
+  bottom: -0.25em;
+}
 
+/* line 193, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 sup {
-  top: -0.5em; }
+  top: -0.5em;
+}
 
 /* Embedded content
-   ========================================================================== */
+     ========================================================================== */
 /**
- * Add the correct display in IE 9-.
- */
+   * Add the correct display in IE 9-.
+   */
+/* line 204, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 audio,
 video {
-  display: inline-block; }
+  display: inline-block;
+}
 
 /**
- * Add the correct display in iOS 4-7.
- */
+   * Add the correct display in iOS 4-7.
+   */
+/* line 213, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 audio:not([controls]) {
   display: none;
-  height: 0; }
+  height: 0;
+}
 
 /**
- * Remove the border on images inside links in IE 10-.
- */
+   * Remove the border on images inside links in IE 10-.
+   */
+/* line 222, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 img {
-  border-style: none; }
+  border-style: none;
+}
 
 /**
- * Hide the overflow in IE.
- */
+   * Hide the overflow in IE.
+   */
+/* line 230, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 svg:not(:root) {
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /* Forms
-   ========================================================================== */
+     ========================================================================== */
 /**
- * 1. Change the font styles in all browsers (opinionated).
- * 2. Remove the margin in Firefox and Safari.
- */
+   * 1. Change the font styles in all browsers (opinionated).
+   * 2. Remove the margin in Firefox and Safari.
+   */
+/* line 242, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 button,
 input,
 optgroup,
@@ -217,71 +263,85 @@ textarea {
   line-height: 1.15;
   /* 1 */
   margin: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
- * Show the overflow in IE.
- * 1. Show the overflow in Edge.
- */
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+/* line 258, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 button,
 input {
   /* 1 */
-  overflow: visible; }
+  overflow: visible;
+}
 
 /**
- * Remove the inheritance of text transform in Edge, Firefox, and IE.
- * 1. Remove the inheritance of text transform in Firefox.
- */
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+/* line 268, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 button,
 select {
   /* 1 */
-  text-transform: none; }
+  text-transform: none;
+}
 
 /**
- * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
- *    controls in Android 4.
- * 2. Correct the inability to style clickable types in iOS and Safari.
- */
+   * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+   *    controls in Android 4.
+   * 2. Correct the inability to style clickable types in iOS and Safari.
+   */
+/* line 279, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
- * Remove the inner border and padding in Firefox.
- */
+   * Remove the inner border and padding in Firefox.
+   */
+/* line 290, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
 [type="submit"]::-moz-focus-inner {
   border-style: none;
-  padding: 0; }
+  padding: 0;
+}
 
 /**
- * Restore the focus styles unset by the previous rule.
- */
+   * Restore the focus styles unset by the previous rule.
+   */
+/* line 302, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
 [type="submit"]:-moz-focusring {
-  outline: 1px dotted ButtonText; }
+  outline: 1px dotted ButtonText;
+}
 
 /**
- * Change the border, margin, and padding in all browsers (opinionated).
- */
+   * Change the border, margin, and padding in all browsers (opinionated).
+   */
+/* line 313, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em; }
+  padding: 0.35em 0.625em 0.75em;
+}
 
 /**
- * 1. Correct the text wrapping in Edge and IE.
- * 2. Correct the color inheritance from `fieldset` elements in IE.
- * 3. Remove the padding so developers are not caught out when they zero out
- *    `fieldset` elements in all browsers.
- */
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+/* line 326, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -294,150 +354,186 @@ legend {
   padding: 0;
   /* 3 */
   white-space: normal;
-  /* 1 */ }
+  /* 1 */
+}
 
 /**
- * 1. Add the correct display in IE 9-.
- * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
- */
+   * 1. Add the correct display in IE 9-.
+   * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+/* line 340, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 progress {
   display: inline-block;
   /* 1 */
   vertical-align: baseline;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
- * Remove the default vertical scrollbar in IE.
- */
+   * Remove the default vertical scrollbar in IE.
+   */
+/* line 349, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 textarea {
-  overflow: auto; }
+  overflow: auto;
+}
 
 /**
- * 1. Add the correct box sizing in IE 10-.
- * 2. Remove the padding in IE 10-.
- */
+   * 1. Add the correct box sizing in IE 10-.
+   * 2. Remove the padding in IE 10-.
+   */
+/* line 358, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
- * Correct the cursor style of increment and decrement buttons in Chrome.
- */
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+/* line 368, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
-  height: auto; }
+  height: auto;
+}
 
 /**
- * 1. Correct the odd appearance in Chrome and Safari.
- * 2. Correct the outline style in Safari.
- */
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+/* line 378, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
-  /* 2 */ }
+  /* 2 */
+}
 
 /**
- * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
- */
+   * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
+   */
+/* line 387, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+}
 
 /**
- * 1. Correct the inability to style clickable types in iOS and Safari.
- * 2. Change font properties to `inherit` in Safari.
- */
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+/* line 397, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
   font: inherit;
-  /* 2 */ }
+  /* 2 */
+}
 
 /* Interactive
-   ========================================================================== */
+     ========================================================================== */
 /*
- * Add the correct display in IE 9-.
- * 1. Add the correct display in Edge, IE, and Firefox.
- */
+   * Add the correct display in IE 9-.
+   * 1. Add the correct display in Edge, IE, and Firefox.
+   */
+/* line 410, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 details,
 menu {
-  display: block; }
+  display: block;
+}
 
 /*
- * Add the correct display in all browsers.
- */
+   * Add the correct display in all browsers.
+   */
+/* line 419, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 summary {
-  display: list-item; }
+  display: list-item;
+}
 
 /* Scripting
-   ========================================================================== */
+     ========================================================================== */
 /**
- * Add the correct display in IE 9-.
- */
+   * Add the correct display in IE 9-.
+   */
+/* line 430, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 canvas {
-  display: inline-block; }
+  display: inline-block;
+}
 
 /**
- * Add the correct display in IE.
- */
+   * Add the correct display in IE.
+   */
+/* line 438, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 template {
-  display: none; }
+  display: none;
+}
 
 /* Hidden
-   ========================================================================== */
+     ========================================================================== */
 /**
- * Add the correct display in IE 10-.
- */
+   * Add the correct display in IE 10-.
+   */
+/* line 449, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 [hidden] {
-  display: none; }
+  display: none;
+}
 
 /**
- * List styles
- */
+   * List styles
+   */
+/* line 456, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
 ul, ol {
   list-style-type: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+}
 
+/* line 2, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 * {
   box-sizing: border-box;
-  font-family: serif;
+  font-family: 'Lato', sans-serif;
   font-weight: normal;
   background: none;
   border: none;
-  letter-spacing: .4px; }
+  letter-spacing: .4px;
+}
 
+/* line 10, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 html, body {
   width: 100%;
   height: 100%;
   margin: 0px;
-  padding: 0px; }
+  padding: 0px;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+}
 
+/* line 19, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 p {
-  width: 100%; }
+  width: 100%;
+}
 
+/* line 22, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 a {
   text-decoration: none;
-  color: inherit; }
+  color: inherit;
+}
 
-hr.styled {
-  border: 0;
-  height: 1px;
-  background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc); }
+/* line 3, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
 
-hr.styled-small {
-  border: 0;
-  height: 1px;
-  background: #333;
-  background-image: linear-gradient(to right, #ccc, #333, #ccc);
-  width: 10px; }
-
+/* line 1, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_about-us-styles.scss */
 .about-us {
-  font-size: 100px; }
+  font-size: 100px;
+}
 
 /*# sourceMappingURL=style.css.map */
