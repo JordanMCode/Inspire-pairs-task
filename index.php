@@ -12,7 +12,7 @@
         if(!function_exists("setPage")){
             function setPage() {
                 if (empty($_GET['page'])){
-                    return "./pages/about-us.php";
+                    return "./pages/landing-page.php";
                 } else{
                     return $_GET['page'];
                 }
