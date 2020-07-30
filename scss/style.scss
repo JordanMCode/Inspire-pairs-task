@@ -1,6 +1,9 @@
-@import "partials/base/reset",
+@import "partials/utilities/variables",
+        "partials/base/reset",
+        "partials/base/header-styles",
         "partials/base/base-styles",
-        "partials/utilities/variables",
+        "partials/base/footer-styles",
         "partials/utilities/multi-page-styling",
-        "partials/pages/about-us-styles";
+        "partials/pages/about-us-styles",
+        "partials/pages/contact_us_styles";
         
