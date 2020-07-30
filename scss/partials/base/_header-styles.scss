@@ -46,7 +46,7 @@
 #burger-line-2,
 #burger-line-3 {
     height: 20%;
-    background-color: #584096;
+    background-color: $purple;
     width: 100%;
     position: absolute;
     right: 0;
@@ -129,7 +129,7 @@
 .contact-button {
     font-size: 24px;
     color: white;
-    background: #584096;
+    background: $purple;
     border: 2px solid #fff;
     border-radius: 7px;
     padding: 9px 34px;
