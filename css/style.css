@@ -688,6 +688,83 @@ ul, ol {
   padding-top: 8px;
 }
 
+/* line 44, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+.service-card {
+  margin-bottom: 3rem;
+}
+
+/* line 48, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+.service-card-content {
+  background: white;
+}
+
+/* line 52, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+.service-card-img-1,
+.service-card-img-2,
+.service-card-img-3 {
+  width: 100%;
+  padding-top: 68%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+
+/* line 62, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+.service-card-img-1 {
+  background-image: url("../assets/imgs/apprentice.jpg");
+}
+
+/* line 66, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+.service-card-img-2 {
+  background-image: url("../assets/imgs/globe.jpg");
+}
+
+/* line 70, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+.service-card-img-3 {
+  background-image: url("../assets/imgs/bespoke.jpg");
+}
+
+/* line 74, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+.icon {
+  width: 92px;
+  height: 92px;
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 50%;
+  background-color: #584096;
+}
+
+/* line 85, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+.service-card-text h4 {
+  text-transform: uppercase;
+  font-size: 26px;
+  margin-bottom: 8px;
+  margin-top: 0;
+  color: #584096;
+  font-weight: 700;
+}
+
+/* line 94, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+.service-card-text p {
+  font-size: 17px;
+  padding-top: 8px;
+  margin-bottom: 16px;
+  color: black;
+}
+
+/* line 101, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+.service-card-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  padding: 55px 25px 20px;
+  position: relative;
+}
+
 /* line 2, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 * {
   box-sizing: border-box;

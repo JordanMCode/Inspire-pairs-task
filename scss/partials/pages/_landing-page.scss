@@ -38,3 +38,72 @@
     margin: 0 0 16px;
     padding-top: 8px;
 }
+
+
+
+.service-card {
+    margin-bottom: 3rem;
+}
+
+.service-card-content {
+    background: white;
+}
+
+.service-card-img-1,
+.service-card-img-2,
+.service-card-img-3 {
+    width: 100%;
+    padding-top: 68%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.service-card-img-1 {
+    background-image: url("../assets/imgs/apprentice.jpg");
+}
+
+.service-card-img-2 {
+    background-image: url("../assets/imgs/globe.jpg");
+}
+
+.service-card-img-3 {
+    background-image: url("../assets/imgs/bespoke.jpg");
+}
+
+.icon {
+    width: 92px;
+    height: 92px;
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background-color: $purple;
+}
+
+.service-card-text h4 {
+    text-transform: uppercase;
+    font-size: 26px;
+    margin-bottom: 8px;
+    margin-top: 0;
+    color: $purple;
+    font-weight: 700;
+}
+
+.service-card-text p {
+    font-size: 17px;
+    padding-top: 8px;
+    margin-bottom: 16px;
+    color: black;
+}
+
+.service-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: left;
+    padding: 55px 25px 20px;
+    position: relative;
+}

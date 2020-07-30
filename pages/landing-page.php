@@ -9,6 +9,43 @@
         <h2>Our Services</h2>
         <hr>
         <p>At Inspire Norfolk, we have numerous different types of apprentice opportunities, meaning we can guarantee you get the apprenticeship qualifications you want in the right industry. Find out further details below.</p>
+
+        <div class="service-card">
+            <div class="service-card-content">
+                <div class="service-card-img-1">
+
+                </div>
+                <div class="service-card-text">
+                    <span class="icon"></span>
+                    <strong><h4>Apprentice Recruitment</h4></strong>
+                    <p>We support businesses every step of the way when recruiting apprentices.</p>
+                </div>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="service-card-content">
+                <div class="service-card-img-2">
+
+                </div>
+                <div class="service-card-text">
+                    <span class="icon"></span>
+                    <strong><h4>International Work Placements</h4></strong>
+                    <p>Students from a range of countries stay in Nofolk to complete work placements in a variety of sectors.</p>
+                </div>
+            </div>
+        </div>
+        <div class="service-card">
+            <div class="service-card-content">
+                <div class="service-card-img-3">
+
+                </div>
+                <div class="service-card-text">
+                    <span class="icon"></span>
+                    <strong><h4>Bespoke Support</h4></strong>
+                    <p>Individually tailored support for those applying for work or who are already in work but may be struggling.</p>
+                </div>
+            </div>
+        </div>
     </div class="container">
     <div>
 
