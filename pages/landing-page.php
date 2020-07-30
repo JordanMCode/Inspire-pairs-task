@@ -6,7 +6,7 @@
         <p>We also work with young people themselves, mainly those who are struggling, for a variety of reasons, to find work. We will take time to get to know them and discuss their goals, likes and dislikes and create a bespoke package of support to ensure they find the right opportunity to ensure they have a positive experience and move into an appropriate apprenticeship.</p>
     </div>
     <div class="services container">
-        <h2>Our Services</h2>
+        <h3>Our Services</h3>
         <hr>
         <p>At Inspire Norfolk, we have numerous different types of apprentice opportunities, meaning we can guarantee you get the apprenticeship qualifications you want in the right industry. Find out further details below.</p>
 
@@ -46,11 +46,13 @@
                 </div>
             </div>
         </div>
-    </div class="container">
-    <div>
-
-    </div class="container">
-    <div>
-
+    </div>
+    <div class="secondary-info container">
+        <h3>Working in partnership with Norfolk County Council since 2012</h3>
+        <p>We support international students coming to Norwich on work placements. These placements are with a variety of local companies across a range of sectors including retail, business, the trades and architectural services. Each year this project grows and will in the future include our young people going out to France and Norway, so watch this space.</p>
+    </div>
+    <div class="get-in-touch container">
+        <p>So if you think you could do with a little help give our experts a call today and find out more how we can find you an apprentice.</p>
+        <a class="get-in-touch-btn">Get in touch</a>
     </div>
 </div>
