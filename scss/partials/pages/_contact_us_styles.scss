@@ -1,0 +1,98 @@
+.contact-content{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    div:first-child{
+        width: 40%;
+        margin-right: 5%;
+
+        h1,
+        h2{
+            color: $purple;
+            font-weight: bold;
+        }
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+
+        label{
+            font-weight: bold;
+            padding: 3px;
+            padding-left: 0;
+            margin-top: 10px;
+            font-size: 1rem;
+        }
+        input[type=text],
+        textarea{
+            border: 2px solid $purple;
+            border-radius: .25rem;
+            padding: .375rem .75rem;
+            transition: border-color .25s ease-in-out;
+            box-shadow: none;
+            outline: 0;
+
+            &:hover,
+            &:focus{
+                border: 3px solid $purple;
+                outline: 0;
+            }
+        }
+        .gdpr-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            label{
+                margin: 0;
+                margin-left: 15px;
+            }
+        }
+
+        input[type=submit]{
+            padding: 10px 5px;
+            border-radius: .25rem;
+            width: 100px;
+            background: $purple;
+            color: $white;
+            cursor: pointer;
+            margin-top: 1.5rem;
+        }
+        h3{
+            color: white;
+            font-weight: bold;
+            width: 100%;
+            text-align: center;
+            padding: 10px 0px 10px 0px;
+        }
+        .errormsg{
+            background: rgb(255, 88, 88);;
+        }
+        .succmsg{
+            background: rgb(20, 173, 20);
+        }
+    }
+
+    @media screen and (max-width: 1750px){
+        width: 60%;
+    }
+    @media screen and (max-width: 1500px){
+        width: 70%;
+    }
+    @media screen and (max-width: 1200px){
+        width: 80%;
+    }
+    @media screen and (max-width: 1000px){
+        width: 100%;
+        flex-direction: column;
+
+        div:first-child,
+        form{
+            width: 100%;
+            padding: 2rem;
+        }
+    }
+}
