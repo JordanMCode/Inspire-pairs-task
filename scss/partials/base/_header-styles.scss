@@ -71,11 +71,14 @@
 
 .banner-content {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     height: 665px;
-    background-image: url("/assets/imgs/banner-img.jpg");
+    background-color: rgba(0,0,0,.7);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    margin-top: 0;
 }
 
 .banner {
@@ -90,14 +93,6 @@
     background-position: center;
     height: 497px;
     color: white;
-}
-
-.banner-content {
-    background-color: rgba(0,0,0,.7);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 0;
 }
 
 .banner h1 {

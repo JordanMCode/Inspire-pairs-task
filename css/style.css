@@ -572,14 +572,17 @@ ul, ol {
 /* line 72, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .banner-content {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   height: 665px;
-  background-image: url("/assets/imgs/banner-img.jpg");
+  background-color: rgba(0, 0, 0, 0.7);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  margin-top: 0;
 }
 
-/* line 81, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 84, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .banner {
   display: flex;
   flex-direction: column;
@@ -594,16 +597,7 @@ ul, ol {
   color: white;
 }
 
-/* line 95, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-.banner-content {
-  background-color: rgba(0, 0, 0, 0.7);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-top: 0;
-}
-
-/* line 103, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 98, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .banner h1 {
   text-transform: uppercase;
   font-size: 35px;
@@ -612,20 +606,20 @@ ul, ol {
   line-height: 1.2;
 }
 
-/* line 111, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 106, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .banner p {
   line-height: 29px;
   margin-bottom: 30px;
   font-weight: 300;
 }
 
-/* line 117, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 112, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .banner-sub-header {
   text-transform: uppercase;
   font-size: 18px;
 }
 
-/* line 122, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 117, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 #banner-line {
   width: 90%;
   height: 2px;
@@ -633,7 +627,7 @@ ul, ol {
   margin: 5px auto 5px auto;
 }
 
-/* line 129, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 124, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .contact-button {
   font-size: 24px;
   color: white;
@@ -717,15 +711,17 @@ footer p {
 /* line 33, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-sections li {
   line-height: 1.7;
+  list-style-type: none;
+  position: relative;
 }
 
-/* line 39, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+/* line 44, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .social-blocks {
   display: flex;
   flex-direction: column;
 }
 
-/* line 44, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+/* line 49, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .social-block {
   width: 100%;
   display: flex;
@@ -733,17 +729,18 @@ footer p {
   flex-wrap: nowrap;
 }
 
-/* line 51, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+/* line 56, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .social-block p {
   margin-top: 0;
 }
 
-/* line 56, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+/* line 61, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-copyright {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
   background-color: #584096;
   width: 100%;
   margin-top: 20px;
