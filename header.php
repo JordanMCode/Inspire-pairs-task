@@ -26,7 +26,7 @@
             <p class="banner-sub-header">Apprenticeships in Norfolk</p>
             <span id="banner-line"></span>
             <p class="banner-sub-header">Looking for an apprentice?</p>
-            <p>We work with small businesses to create apprenticeship positions, and work with young people to get them in to the perfect opportunity.</p>
+            <p id="banner-text">We work with small businesses to create apprenticeship positions, and work with young people to get them in to the perfect opportunity.</p>
             <a class="contact-button">Contact Us Today</a>
         </div>
     </div>

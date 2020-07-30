@@ -101,12 +101,16 @@
     margin-bottom: 20px;
     font-weight: 700;
     line-height: 1.2;
+    margin-bottom: 0;
 }
 
 .banner p {
     line-height: 29px;
     margin-bottom: 30px;
-    font-weight: 300;
+}
+
+#banner-text {
+    margin-top: 0;
 }
 
 .banner-sub-header {
