@@ -717,7 +717,7 @@ ul, ol {
 }
 
 /* line 4, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.welcome h3 {
+.landing-page .welcome h3 {
   font-weight: 800;
   color: #584096;
   font-size: 1.75rem;
@@ -725,12 +725,12 @@ ul, ol {
 }
 
 /* line 11, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.welcome p {
+.landing-page .welcome p {
   font-size: 1.2rem;
 }
 
 /* line 16, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.services {
+.landing-page .services {
   display: flex;
   flex-direction: column;
   background-color: #584096;
@@ -740,14 +740,14 @@ ul, ol {
 }
 
 /* line 26, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.services h3 {
+.landing-page .services h3 {
   margin-bottom: 1.5rem;
   margin-top: 0;
   font-size: 2rem;
 }
 
 /* line 32, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.services hr {
+.landing-page .services hr {
   background-color: #fff;
   width: 150px;
   height: 2px;
@@ -756,31 +756,31 @@ ul, ol {
 }
 
 /* line 40, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.services p {
+.landing-page .services p {
   margin: 0 0 16px;
   padding-top: 8px;
 }
 
 /* line 45, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.service-text {
+.landing-page .service-text {
   flex-direction: row;
   flex-wrap: wrap;
 }
 
 /* line 50, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.service-card {
+.landing-page .service-card {
   margin-bottom: 3rem;
 }
 
 /* line 54, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.service-card-content {
+.landing-page .service-card-content {
   background: white;
 }
 
 /* line 58, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.service-card-img-1,
-.service-card-img-2,
-.service-card-img-3 {
+.landing-page .service-card-img-1,
+.landing-page .service-card-img-2,
+.landing-page .service-card-img-3 {
   width: 100%;
   padding-top: 68%;
   background-repeat: no-repeat;
@@ -789,22 +789,22 @@ ul, ol {
 }
 
 /* line 68, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.service-card-img-1 {
+.landing-page .service-card-img-1 {
   background-image: url("../assets/imgs/apprentice.jpg");
 }
 
 /* line 72, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.service-card-img-2 {
+.landing-page .service-card-img-2 {
   background-image: url("../assets/imgs/globe.jpg");
 }
 
 /* line 76, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.service-card-img-3 {
+.landing-page .service-card-img-3 {
   background-image: url("../assets/imgs/bespoke.jpg");
 }
 
 /* line 80, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.icon {
+.landing-page .icon {
   width: 92px;
   height: 92px;
   position: absolute;
@@ -816,8 +816,8 @@ ul, ol {
 }
 
 /* line 91, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.fas,
-.far {
+.landing-page .fas,
+.landing-page .far {
   font-size: 50px;
   position: absolute;
   bottom: 50%;
@@ -826,7 +826,7 @@ ul, ol {
 }
 
 /* line 100, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.service-card-text h4 {
+.landing-page .service-card-text h4 {
   text-transform: uppercase;
   font-size: 26px;
   margin-bottom: 8px;
@@ -836,7 +836,7 @@ ul, ol {
 }
 
 /* line 109, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.service-card-text p {
+.landing-page .service-card-text p {
   font-size: 17px;
   padding-top: 8px;
   margin-bottom: 16px;
@@ -844,7 +844,7 @@ ul, ol {
 }
 
 /* line 116, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.service-card-text {
+.landing-page .service-card-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -855,12 +855,12 @@ ul, ol {
 }
 
 /* line 126, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.secondary-info {
+.landing-page .secondary-info {
   margin: 56px 0 40px;
 }
 
 /* line 130, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.secondary-info h3 {
+.landing-page .secondary-info h3 {
   font-size: 1.75rem;
   color: #584096;
   font-weight: 800;
@@ -868,20 +868,20 @@ ul, ol {
 }
 
 /* line 137, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.secondary-info p {
+.landing-page .secondary-info p {
   font-size: 19px;
   margin-bottom: 1rem;
   margin-top: 0;
 }
 
 /* line 144, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.get-in-touch p {
+.landing-page .get-in-touch p {
   color: white;
   font-size: 18px;
 }
 
 /* line 149, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.get-in-touch {
+.landing-page .get-in-touch {
   background: #584096;
   display: flex;
   flex-direction: column;
@@ -891,7 +891,7 @@ ul, ol {
 }
 
 /* line 158, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.get-in-touch-btn {
+.landing-page .get-in-touch-btn {
   display: flex;
   justify-content: center;
   text-align: center;
