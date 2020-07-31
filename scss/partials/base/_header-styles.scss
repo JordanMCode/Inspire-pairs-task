@@ -1,7 +1,7 @@
 
 .header-container {
     height: 103px;
-    width: 70%;
+    width: 50%;
     margin: 0 auto;
 }
 
@@ -11,10 +11,10 @@
     height: 100%;
     display: flex;
     flex-wrap: nowrap;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding: 8px 0 !important;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 #logo-container {
@@ -23,8 +23,6 @@
     max-width: 35%;
     min-width: 100px;
     height: auto;
-    padding-right: 15px;
-    padding-left: 15px;
 }
 
 #main-logo {
@@ -75,6 +73,9 @@
     .nav-link{
         margin: 0 20px;
         font-size: 1.3rem;
+    }
+    .nav-link:last-child{
+        margin: 0;
     }
     .phone{
         display: inline;
@@ -166,11 +167,35 @@
     margin-right: auto;
 }
 
-@media screen and (min-width: 1500px){
+@media screen and (min-width: 1900px){
     .burger-button{
         display: none;
     }
     .full-nav-items{
         display: block;
+    }
+}
+
+@media screen and (max-width: 1750px){
+    .header-container{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 1500px){
+    .header-container{
+        width: 70%;
+    }
+}
+@media screen and (max-width: 1200px){
+    .header-container{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 1000px){
+    .header-container{
+        width: 100%;
+    }
+    #logo-container{
+        margin-left: 20px;
     }
 }
