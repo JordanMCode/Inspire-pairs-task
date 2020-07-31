@@ -7,3 +7,26 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+.internal-page-banner {
+    background-size: cover;
+    height: 537.6px;
+    background-repeat: no-repeat;
+}
+
+.info-container h1 {
+    font-size: 36px;
+    margin: 36px 0;
+    color: $purple;
+}
+
+.info-container p {
+    font-size: 22px;
+    margin: 0 0 16px;
+    padding: 16px 0 0;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}

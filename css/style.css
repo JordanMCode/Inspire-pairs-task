@@ -842,9 +842,10 @@ ul, ol {
   background: none;
   border: none;
   letter-spacing: .4px;
+  color: #23284b;
 }
 
-/* line 10, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
+/* line 11, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 html, body {
   width: 100%;
   height: 100%;
@@ -856,7 +857,7 @@ html, body {
   overflow: none;
 }
 
-/* line 22, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
+/* line 23, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 h1,
 h2,
 h3,
@@ -864,12 +865,12 @@ h4 {
   line-height: 1.2;
 }
 
-/* line 29, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
+/* line 30, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 p {
   width: 100%;
 }
 
-/* line 33, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
+/* line 34, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 a {
   text-decoration: none;
   color: #584096;
@@ -972,9 +973,43 @@ footer p {
   margin-left: auto;
 }
 
+/* line 11, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+.internal-page-banner {
+  background-size: cover;
+  height: 537.6px;
+  background-repeat: no-repeat;
+}
+
+/* line 17, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+.info-container h1 {
+  font-size: 36px;
+  margin: 36px 0;
+  color: #584096;
+}
+
+/* line 23, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+.info-container p {
+  font-size: 22px;
+  margin: 0 0 16px;
+  padding: 16px 0 0;
+}
+
+/* line 29, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+.info-container {
+  display: flex;
+  flex-direction: column;
+}
+
 /* line 1, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_about-us-styles.scss */
 .about-us {
   font-size: 100px;
+}
+
+/* line 6, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_about-us-styles.scss */
+.about-us-img {
+  background: url(../assets/imgs/phone.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 /* line 1, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_contact_us_styles.scss */

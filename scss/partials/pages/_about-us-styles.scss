@@ -2,3 +2,9 @@
     // All styles will only apply to content inside the about us page keeping it isolated from other pages.
     font-size: 100px;
 }
+
+.about-us-img {
+    background: url(../assets/imgs/phone.jpg);
+    background-position: center;
+    background-size: cover;
+}
