@@ -402,8 +402,35 @@ ul, ol {
   padding: 0;
   margin: 0; }
 
+* {
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+  background: none;
+  border: none;
+  letter-spacing: .4px; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  overflow: none; }
+
+p {
+  width: 100%; }
+
+a {
+  text-decoration: none;
+  color: #584096; }
+
 .header-container {
-  height: 103px; }
+  height: 103px;
+  width: 70%;
+  margin: 0 auto; }
 
 .header-items {
   width: 100%;
@@ -411,7 +438,9 @@ ul, ol {
   display: flex;
   flex-wrap: nowrap;
   padding-top: 8px;
-  padding-bottom: 8px; }
+  padding-bottom: 8px;
+  justify-content: space-between;
+  align-items: center; }
 
 #logo-container {
   display: flex;
@@ -460,6 +489,24 @@ ul, ol {
 
 .full-nav-items {
   display: none; }
+  .full-nav-items .nav-link {
+    margin: 0 20px;
+    font-size: 1.3rem; }
+  .full-nav-items .phone {
+    display: inline;
+    color: white;
+    background: #584096;
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 1.1rem; }
+    .full-nav-items .phone strong {
+      margin-left: 5px; }
+    .full-nav-items .phone i {
+      background: white;
+      color: #584096;
+      padding: 10px;
+      border-radius: 50%;
+      transform: rotateZ(90deg); }
 
 .banner-content {
   display: flex;
@@ -519,96 +566,54 @@ ul, ol {
   margin-left: auto;
   margin-right: auto; }
 
-* {
-  box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
-  font-weight: normal;
-  background: none;
-  border: none;
-  letter-spacing: .4px; }
+@media screen and (min-width: 1500px) {
+  .burger-button {
+    display: none; }
 
-html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
-  overflow: none;
-}
-
-/* line 20, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
-p {
-  width: 100%; }
-
-/* line 23, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
-a {
-  text-decoration: none;
-  color: #584096;
-}
-
-/* line 3, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+  .full-nav-items {
+    display: block; } }
 .footer-container {
   width: 100%;
   padding: 19px;
-  height: 565px;
-}
+  height: 565px; }
 
-/* line 9, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 footer h4 {
   color: #584096;
   margin-bottom: 20px;
   font-weight: 600;
   font-size: 26px;
-  margin-top: 0;
-}
+  margin-top: 0; }
 
-/* line 17, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 footer p {
-  margin-bottom: 0;
-}
+  margin-bottom: 0; }
 
-/* line 22, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-contact,
 .footer-sections,
 .footer-social {
-  margin-top: 0;
-}
+  margin-top: 0; }
 
-/* line 28, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-contact,
 .footer-sections {
-  padding-bottom: 24px;
-}
+  padding-bottom: 24px; }
 
-/* line 33, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-sections li {
   line-height: 1.7;
   list-style-type: none;
-  position: relative;
-}
+  position: relative; }
 
-/* line 44, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .social-blocks {
   display: flex;
-  flex-direction: column;
-}
+  flex-direction: column; }
 
-/* line 49, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .social-block {
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap;
-}
+  flex-wrap: nowrap; }
 
-/* line 56, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .social-block p {
-  margin-top: 0;
-}
+  margin-top: 0; }
 
-/* line 61, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-copyright {
   display: flex;
   flex-direction: column;
@@ -620,8 +625,7 @@ footer p {
   margin-top: 20px;
   color: #cccccc;
   font-size: 14px;
-  height: 60px;
-}
+  height: 60px; }
 
 .container {
   width: 100%;
