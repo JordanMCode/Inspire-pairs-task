@@ -842,10 +842,9 @@ ul, ol {
   background: none;
   border: none;
   letter-spacing: .4px;
-  color: #23284b;
 }
 
-/* line 11, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
+/* line 10, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 html, body {
   width: 100%;
   height: 100%;
@@ -857,7 +856,7 @@ html, body {
   overflow: none;
 }
 
-/* line 23, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
+/* line 22, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 h1,
 h2,
 h3,
@@ -865,12 +864,12 @@ h4 {
   line-height: 1.2;
 }
 
-/* line 30, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
+/* line 29, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 p {
   width: 100%;
 }
 
-/* line 34, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
+/* line 33, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 a {
   text-decoration: none;
   color: #584096;
