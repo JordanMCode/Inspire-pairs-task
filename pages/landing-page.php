@@ -6,17 +6,18 @@
         <p>We also work with young people themselves, mainly those who are struggling, for a variety of reasons, to find work. We will take time to get to know them and discuss their goals, likes and dislikes and create a bespoke package of support to ensure they find the right opportunity to ensure they have a positive experience and move into an appropriate apprenticeship.</p>
     </div>
     <div class="services container">
-        <h3>Our Services</h3>
-        <hr>
-        <p>At Inspire Norfolk, we have numerous different types of apprentice opportunities, meaning we can guarantee you get the apprenticeship qualifications you want in the right industry. Find out further details below.</p>
-
+        <div class="service-text">
+            <h3>Our Services</h3>
+            <hr>
+            <p>At Inspire Norfolk, we have numerous different types of apprentice opportunities, meaning we can guarantee you get the apprenticeship qualifications you want in the right industry. Find out further details below.</p>
+        </div>
         <div class="service-card">
             <div class="service-card-content">
                 <div class="service-card-img-1">
 
                 </div>
                 <div class="service-card-text">
-                    <span class="icon"></span>
+                    <span class="icon"><i class="far fa-handshake"></i></span>
                     <strong><h4>Apprentice Recruitment</h4></strong>
                     <p>We support businesses every step of the way when recruiting apprentices.</p>
                 </div>
@@ -28,7 +29,7 @@
 
                 </div>
                 <div class="service-card-text">
-                    <span class="icon"></span>
+                    <span class="icon"><i class="fas fa-globe-americas"></i></span>
                     <strong><h4>International Work Placements</h4></strong>
                     <p>Students from a range of countries stay in Nofolk to complete work placements in a variety of sectors.</p>
                 </div>
@@ -40,7 +41,7 @@
 
                 </div>
                 <div class="service-card-text">
-                    <span class="icon"></span>
+                    <span class="icon"><i class="fas fa-users"></i></span>
                     <strong><h4>Bespoke Support</h4></strong>
                     <p>Individually tailored support for those applying for work or who are already in work but may be struggling.</p>
                 </div>
@@ -53,6 +54,6 @@
     </div>
     <div class="get-in-touch container">
         <p>So if you think you could do with a little help give our experts a call today and find out more how we can find you an apprentice.</p>
-        <a class="get-in-touch-btn">Get in touch</a>
+        <a class="get-in-touch-btn">Get In Touch</a>
     </div>
 </div>

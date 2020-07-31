@@ -32,21 +32,21 @@
                 <h4>Follow Us On</h4>
                 <div class="social-blocks">
                     <a href="#" class="social-block facebook">
-                        <i class="fab fa-facebook-f fa-2x"></i>
+                        <img src="../Inspire-pairs-task\assets\imgs\facebook.png" class="social-icon">
                         <p>Facebook</p>
                     </a>
                     <a href="#" class="social-block twitter">
-                        <i class="fab fa-twitter fa-2x"></i>
+                        <img src="../Inspire-pairs-task\assets\imgs\twitter.png" class="social-icon">
                         <p>Twitter</p>
                     </a>
                     <a href="#" class="social-block linked">
-                        <i class="fab fa-linkedin-in fa-2x"></i>
+                        <img src="../Inspire-pairs-task\assets\imgs\linkedin.png" class="social-icon">
                         <p>LinkedIn</p>
                     </a>
                 </div>
             </div>
         </div>
         <div class="footer-copyright">
-                <span>Copyright &copy; Inspire Norfolk. Web Design Netmatters. All Rights Reserved 2018.</span>
+                <span>Copyright &copy; Inspire Norfolk. Web Design Netmatters. All Rights Reserved 2020.</span>
             </div>
 </footer>

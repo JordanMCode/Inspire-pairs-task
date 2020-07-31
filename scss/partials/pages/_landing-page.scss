@@ -42,7 +42,10 @@
     padding-top: 8px;
 }
 
-
+.service-text {
+    flex-direction: row;
+    flex-wrap: wrap;
+}
 
 .service-card {
     margin-bottom: 3rem;
@@ -83,6 +86,15 @@
     transform: translateX(-50%);
     border-radius: 50%;
     background-color: $purple;
+}
+
+.fas,
+.far {
+    font-size: 50px;
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
 }
 
 .service-card-text h4 {
@@ -131,6 +143,7 @@
 
 .get-in-touch p {
     color: white;
+    font-size: 18px;
 }
 
 .get-in-touch {
@@ -139,11 +152,18 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    padding: 40px 0;
 }
 
 .get-in-touch-btn {
+    display: flex;
+    justify-content: center;
     text-align: center;
     background-color: #fff;
-    font-weight: 600;
+    font-weight: 800;
     font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 9px 34px;
+    border-radius: 7px;
 }

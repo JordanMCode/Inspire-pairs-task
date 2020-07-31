@@ -6,7 +6,7 @@
     <title>Inspire Norfolk - Leading a generation into work</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/ec34e9393d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/145bf61ced.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <?php

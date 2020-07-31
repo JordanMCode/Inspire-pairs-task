@@ -126,14 +126,14 @@
 }
 
 .contact-button {
+    display: flex;
     font-size: 24px;
     color: white;
     background: $purple;
     border: 2px solid #fff;
     border-radius: 7px;
     padding: 9px 34px;
-    font-weight: 300;
-    width: 260px;
+    font-weight: 500;
     margin-left: auto;
     margin-right: auto;
 }
