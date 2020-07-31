@@ -490,37 +490,14 @@ ul, ol {
   margin: 0;
 }
 
-* {
-  box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
-  font-weight: normal;
-  background: none;
-  border: none;
-  letter-spacing: .4px; }
-
-html, body {
-  width: 100%;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
-  line-height: 1.5;
-  color: #212529;
-  background-color: #fff;
-  overflow: none; }
-
-p {
-  width: 100%; }
-
-a {
-  text-decoration: none;
-  color: #584096; }
-
+/* line 2, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .header-container {
   height: 103px;
   width: 70%;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
-/* line 7, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 9, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .header-items {
   width: 100%;
   height: 100%;
@@ -529,9 +506,10 @@ a {
   padding-top: 8px;
   padding-bottom: 8px;
   justify-content: space-between;
-  align-items: center; }
+  align-items: center;
+}
 
-/* line 16, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 20, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 #logo-container {
   display: flex;
   align-items: center;
@@ -542,7 +520,7 @@ a {
   padding-left: 15px;
 }
 
-/* line 26, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 30, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 #main-logo {
   height: auto;
   width: 80%;
@@ -551,7 +529,7 @@ a {
   max-width: 135px;
 }
 
-/* line 34, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 38, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .burger-button {
   display: block;
   position: absolute;
@@ -563,7 +541,7 @@ a {
   top: 36px;
 }
 
-/* line 45, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 49, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 #burger-line-1,
 #burger-line-2,
 #burger-line-3 {
@@ -575,44 +553,57 @@ a {
   left: 0;
 }
 
-/* line 56, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 60, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 #burger-line-1 {
   top: 0%;
 }
 
-/* line 60, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 64, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 #burger-line-2 {
   top: 40%;
 }
 
-/* line 64, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 68, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 #burger-line-3 {
   top: 80%;
 }
 
-/* line 68, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-.full-nav-items {
-  display: none; }
-  .full-nav-items .nav-link {
-    margin: 0 20px;
-    font-size: 1.3rem; }
-  .full-nav-items .phone {
-    display: inline;
-    color: white;
-    background: #584096;
-    padding: 15px;
-    border-radius: 5px;
-    font-size: 1.1rem; }
-    .full-nav-items .phone strong {
-      margin-left: 5px; }
-    .full-nav-items .phone i {
-      background: white;
-      color: #584096;
-      padding: 10px;
-      border-radius: 50%;
-      transform: rotateZ(90deg); }
-
 /* line 72, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.full-nav-items {
+  display: none;
+}
+
+/* line 75, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.full-nav-items .nav-link {
+  margin: 0 20px;
+  font-size: 1.3rem;
+}
+
+/* line 79, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.full-nav-items .phone {
+  display: inline;
+  color: white;
+  background: #584096;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+/* line 86, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.full-nav-items .phone strong {
+  margin-left: 5px;
+}
+
+/* line 89, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.full-nav-items .phone i {
+  background: white;
+  color: #584096;
+  padding: 10px;
+  border-radius: 50%;
+  transform: rotateZ(90deg);
+}
+
+/* line 100, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .banner-content {
   display: flex;
   flex-direction: column;
@@ -625,7 +616,7 @@ a {
   margin-top: 0;
 }
 
-/* line 84, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 112, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .banner {
   display: flex;
   flex-direction: column;
@@ -640,7 +631,7 @@ a {
   color: white;
 }
 
-/* line 98, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 126, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .banner h1 {
   text-transform: uppercase;
   font-size: 35px;
@@ -650,24 +641,24 @@ a {
   margin-bottom: 0;
 }
 
-/* line 107, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 135, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .banner p {
   line-height: 29px;
   margin-bottom: 30px;
 }
 
-/* line 112, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 140, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 #banner-text {
   margin-top: 0;
 }
 
-/* line 116, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 144, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .banner-sub-header {
   text-transform: uppercase;
   font-size: 18px;
 }
 
-/* line 121, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 149, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 #banner-line {
   width: 90%;
   height: 2px;
@@ -675,7 +666,7 @@ a {
   margin: 5px auto 5px auto;
 }
 
-/* line 128, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+/* line 156, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .contact-button {
   display: flex;
   font-size: 24px;
@@ -687,6 +678,17 @@ a {
   font-weight: 500;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (min-width: 1500px) {
+  /* line 170, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+  .burger-button {
+    display: none;
+  }
+  /* line 173, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+  .full-nav-items {
+    display: block;
+  }
 }
 
 /* line 4, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
@@ -877,12 +879,6 @@ a {
   border-radius: 7px;
 }
 
-@media screen and (min-width: 1500px) {
-  .burger-button {
-    display: none; }
-
-  .full-nav-items {
-    display: block; } }
 /* line 2, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 * {
   box-sizing: border-box;
@@ -924,11 +920,213 @@ a {
   color: #584096;
 }
 
+/* line 2, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.header-container {
+  height: 103px;
+  width: 70%;
+  margin: 0 auto;
+}
+
+/* line 9, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.header-items {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 20, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+#logo-container {
+  display: flex;
+  align-items: center;
+  max-width: 35%;
+  min-width: 100px;
+  height: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* line 30, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+#main-logo {
+  height: auto;
+  width: 80%;
+  min-width: 100px;
+  max-height: 72px;
+  max-width: 135px;
+}
+
+/* line 38, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.burger-button {
+  display: block;
+  position: absolute;
+  height: 30px;
+  width: 36px;
+  cursor: pointer;
+  left: auto;
+  right: 36px;
+  top: 36px;
+}
+
+/* line 49, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+#burger-line-1,
+#burger-line-2,
+#burger-line-3 {
+  height: 20%;
+  background-color: #584096;
+  width: 100%;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+/* line 60, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+#burger-line-1 {
+  top: 0%;
+}
+
+/* line 64, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+#burger-line-2 {
+  top: 40%;
+}
+
+/* line 68, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+#burger-line-3 {
+  top: 80%;
+}
+
+/* line 72, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.full-nav-items {
+  display: none;
+}
+
+/* line 75, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.full-nav-items .nav-link {
+  margin: 0 20px;
+  font-size: 1.3rem;
+}
+
+/* line 79, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.full-nav-items .phone {
+  display: inline;
+  color: white;
+  background: #584096;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+/* line 86, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.full-nav-items .phone strong {
+  margin-left: 5px;
+}
+
+/* line 89, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.full-nav-items .phone i {
+  background: white;
+  color: #584096;
+  padding: 10px;
+  border-radius: 50%;
+  transform: rotateZ(90deg);
+}
+
+/* line 100, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 665px;
+  background-color: rgba(0, 0, 0, 0.7);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-top: 0;
+}
+
+/* line 112, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("../assets/imgs/banner-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 497px;
+  color: white;
+}
+
+/* line 126, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.banner h1 {
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+
+/* line 135, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.banner p {
+  line-height: 29px;
+  margin-bottom: 30px;
+}
+
+/* line 140, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+#banner-text {
+  margin-top: 0;
+}
+
+/* line 144, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.banner-sub-header {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+/* line 149, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+#banner-line {
+  width: 90%;
+  height: 2px;
+  background-color: white;
+  margin: 5px auto 5px auto;
+}
+
+/* line 156, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+.contact-button {
+  display: flex;
+  font-size: 24px;
+  color: white;
+  background: #584096;
+  border: 2px solid #fff;
+  border-radius: 7px;
+  padding: 9px 34px;
+  font-weight: 500;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 1500px) {
+  /* line 170, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+  .burger-button {
+    display: none;
+  }
+  /* line 173, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
+  .full-nav-items {
+    display: block;
+  }
+}
+
 /* line 3, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-container {
   width: 100%;
   padding: 19px;
-  height: 565px; }
+  height: 565px;
+}
 
 /* line 9, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-container a {
@@ -941,40 +1139,47 @@ footer h4 {
   margin-bottom: 20px;
   font-weight: 600;
   font-size: 26px;
-  margin-top: 0; }
+  margin-top: 0;
+}
 
 /* line 21, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 footer p {
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 /* line 26, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-contact,
 .footer-sections,
 .footer-social {
-  margin-top: 0; }
+  margin-top: 0;
+}
 
 /* line 32, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-contact,
 .footer-sections {
-  padding-bottom: 24px; }
+  padding-bottom: 24px;
+}
 
 /* line 37, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-sections li {
   line-height: 1.7;
   list-style-type: none;
-  position: relative; }
+  position: relative;
+}
 
 /* line 48, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .social-blocks {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 /* line 53, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .social-block {
   width: 100%;
   display: flex;
   flex-direction: row;
-  flex-wrap: nowrap; }
+  flex-wrap: nowrap;
+}
 
 /* line 60, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .social-block p {
@@ -1001,7 +1206,8 @@ footer p {
   margin-top: 0;
   color: #cccccc;
   font-size: 14px;
-  height: 60px; }
+  height: 60px;
+}
 
 /* line 3, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .container {
