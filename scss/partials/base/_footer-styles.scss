@@ -6,6 +6,10 @@
     height: 565px;
 }
 
+.footer-container a {
+        color: #414012;
+}
+
 footer h4 {
     color: $purple;
     margin-bottom: 20px;
@@ -37,7 +41,7 @@ footer p {
 }
 
 .footer-sections li::before {
-
+ //Arrows before list items //
 }
 
 
@@ -55,8 +59,14 @@ footer p {
 
 .social-block p {
     margin-top: 0;
+    vertical-align: middle;
+    font-weight: 500;
 }
 
+.social-icon {
+    margin: 5px;
+    vertical-align: middle;  
+}
 
 .footer-copyright {
     display: flex;
@@ -66,7 +76,7 @@ footer p {
     text-align: center;
     background-color: $purple;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 0;
     color: #cccccc;
     font-size: 14px;
     height: 60px;

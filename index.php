@@ -8,7 +8,7 @@
     <!-- Pushy CSS -->
     <link rel="stylesheet" href="css/pushy.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="https://kit.fontawesome.com/ec34e9393d.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/145bf61ced.js" crossorigin="anonymous"></script>
 </head>
     <body>
         <?php
