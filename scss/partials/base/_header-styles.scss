@@ -1,6 +1,8 @@
 
 .header-container {
     height: 103px;
+    width: 70%;
+    margin: 0 auto;
 }
 
 
@@ -11,6 +13,8 @@
     flex-wrap: nowrap;
     padding-top: 8px;
     padding-bottom: 8px;
+    justify-content: space-between;
+    align-items: center;
 }
 
 #logo-container {
@@ -67,6 +71,30 @@
 
 .full-nav-items {
     display: none;
+
+    .nav-link{
+        margin: 0 20px;
+        font-size: 1.3rem;
+    }
+    .phone{
+        display: inline;
+        color: white;
+        background: $purple;
+        padding: 15px;
+        border-radius: 5px;
+        font-size: 1.1rem;
+        strong{
+            margin-left: 5px;
+        }
+        i{
+            background: white;
+            color: $purple;
+            padding: 10px;
+            border-radius: 50%;
+
+            transform: rotateZ(90deg);
+        }
+    }
 }
 
 .banner-content {
@@ -136,4 +164,13 @@
     font-weight: 500;
     margin-left: auto;
     margin-right: auto;
+}
+
+@media screen and (min-width: 1500px){
+    .burger-button{
+        display: none;
+    }
+    .full-nav-items{
+        display: block;
+    }
 }
