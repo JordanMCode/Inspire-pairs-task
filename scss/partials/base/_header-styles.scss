@@ -99,14 +99,18 @@
     text-transform: uppercase;
     font-size: 35px;
     margin-bottom: 20px;
-    font-weight: 700;
+    font-weight: 800;
     line-height: 1.2;
+    margin-bottom: 0;
 }
 
 .banner p {
     line-height: 29px;
     margin-bottom: 30px;
-    font-weight: 300;
+}
+
+#banner-text {
+    margin-top: 0;
 }
 
 .banner-sub-header {
@@ -122,14 +126,14 @@
 }
 
 .contact-button {
+    display: flex;
     font-size: 24px;
     color: white;
     background: $purple;
     border: 2px solid #fff;
     border-radius: 7px;
     padding: 9px 34px;
-    font-weight: 300;
-    width: 260px;
+    font-weight: 500;
     margin-left: auto;
     margin-right: auto;
 }
