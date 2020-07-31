@@ -8,6 +8,20 @@
     margin-left: auto;
 }
 
+.secondary-container {
+    background: #584096;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 40px 15px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.secondary-container p {
+    max-width: 540px;
+}
+
 .internal-page-banner {
     background-size: cover;
     height: 537.6px;

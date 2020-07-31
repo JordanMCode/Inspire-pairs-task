@@ -32,16 +32,6 @@ body {
 /**
    * Add the correct display in IE 9-.
    */
-/* line 35, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
-article,
-aside,
-footer,
-header,
-nav,
-section {
-  display: block;
-}
-
 /* Grouping content
      ========================================================================== */
 /**
@@ -1137,7 +1127,7 @@ a {
 footer h4 {
   color: #584096;
   margin-bottom: 20px;
-  font-weight: 600;
+  font-weight: 800;
   font-size: 26px;
   margin-top: 0;
 }
@@ -1219,27 +1209,43 @@ footer p {
 }
 
 /* line 11, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+.secondary-container {
+  background: #584096;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 15px;
+  font-size: 18px;
+  color: #fff;
+}
+
+/* line 21, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+.secondary-container p {
+  max-width: 540px;
+}
+
+/* line 25, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .internal-page-banner {
   background-size: cover;
   height: 537.6px;
   background-repeat: no-repeat;
 }
 
-/* line 17, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+/* line 31, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .info-container h1 {
   font-size: 36px;
   margin: 36px 0;
   color: #584096;
 }
 
-/* line 23, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+/* line 37, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .info-container p {
   font-size: 22px;
   margin: 0 0 16px;
   padding: 16px 0 0;
 }
 
-/* line 29, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+/* line 43, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .info-container {
   display: flex;
   flex-direction: column;
