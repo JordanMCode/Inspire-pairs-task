@@ -736,7 +736,7 @@ ul, ol {
   background-color: #584096;
   width: 100%;
   color: white;
-  padding: 56px 0 60px;
+  padding: 56px 15px 60px 15px;
 }
 
 /* line 26, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
@@ -847,19 +847,17 @@ ul, ol {
 .landing-page .service-card-text {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  text-align: left;
+  text-align: center;
   padding: 55px 25px 20px;
   position: relative;
 }
 
-/* line 126, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 124, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .secondary-info {
   margin: 56px 0 40px;
 }
 
-/* line 130, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 128, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .secondary-info h3 {
   font-size: 1.75rem;
   color: #584096;
@@ -867,20 +865,20 @@ ul, ol {
   margin-bottom: 30px;
 }
 
-/* line 137, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 135, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .secondary-info p {
   font-size: 19px;
   margin-bottom: 1rem;
   margin-top: 0;
 }
 
-/* line 144, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 142, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .get-in-touch p {
   color: white;
   font-size: 18px;
 }
 
-/* line 149, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 147, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .get-in-touch {
   background: #584096;
   display: flex;
@@ -890,8 +888,63 @@ ul, ol {
   padding: 40px 0;
 }
 
-/* line 158, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 156, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .get-in-touch-btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+  font-weight: 800;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 9px 34px;
+  border-radius: 7px;
+}
+
+/* line 2, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+.our-services-img {
+  background-image: url(../assets/imgs/banner-img.jpg);
+}
+
+/* line 7, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+.our-services p {
+  font-size: 19px;
+  font-weight: 500;
+}
+
+/* line 11, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+.our-services h1 {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  color: #584096;
+}
+
+/* line 17, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+.our-services h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* line 24, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+.get-in-touch p {
+  color: white;
+  font-size: 18px;
+}
+
+/* line 29, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+.get-in-touch {
+  background: #584096;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 0;
+}
+
+/* line 38, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+.get-in-touch-btn {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -1270,6 +1323,13 @@ footer p {
 }
 
 /* line 3, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+.flex {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* line 9, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .container {
   width: 100%;
   padding-right: 15px;
@@ -1278,7 +1338,7 @@ footer p {
   margin-left: auto;
 }
 
-/* line 11, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+/* line 17, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .secondary-container {
   background: #584096;
   display: flex;
@@ -1289,36 +1349,43 @@ footer p {
   color: #fff;
 }
 
-/* line 21, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+/* line 27, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .secondary-container p {
   max-width: 540px;
 }
 
-/* line 25, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+/* line 31, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .internal-page-banner {
   background-size: cover;
   height: 537.6px;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
-/* line 31, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+/* line 38, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .info-container h1 {
   font-size: 36px;
   margin: 36px 0;
   color: #584096;
 }
 
-/* line 37, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+/* line 44, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .info-container p {
   font-size: 22px;
   margin: 0 0 16px;
   padding: 16px 0 0;
 }
 
-/* line 43, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+/* line 50, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .info-container {
   display: flex;
   flex-direction: column;
+}
+
+/* line 55, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
+.purple-bg {
+  background-color: #584096;
+  color: white;
 }
 
 /* line 1, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/pages/_about-us-styles.scss */

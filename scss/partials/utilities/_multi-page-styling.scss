@@ -1,5 +1,11 @@
 // Store any styles that are used across multiple pages such as banners or cards.
 
+.flex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
 .container {
     width: 100%;
     padding-right: 15px;
@@ -26,6 +32,7 @@
     background-size: cover;
     height: 537.6px;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .info-container h1 {
@@ -43,4 +50,9 @@
 .info-container {
     display: flex;
     flex-direction: column;
+}
+
+.purple-bg {
+    background-color: $purple;
+    color: white;
 }
