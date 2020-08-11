@@ -1,14 +1,13 @@
 <footer>
-     <div class="footer-container">
+     <div class="footer-container container">
             <div class="footer-contact footer-block">
                 <h4>Contact Us</h4>
                 <ul>
                     <li><strong>Inspire Norfolk</strong></li>
                      <li>
-                        Email:
                         <a href="mailto:support@netmatters.com">jan@inspirenorfolk.co.uk</a>
                     </li>
-                    <li>Tel:<a href="#"> 01603670909</a></li>  
+                    <li><a href="#"> 01603670909</a></li>  
                 </ul>
             </div>
             <div class="footer-sections footer-block">

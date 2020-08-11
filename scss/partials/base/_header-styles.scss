@@ -98,61 +98,8 @@
     }
 }
 
-.banner-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 665px;
-    background-color: rgba(0,0,0,.7);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    margin-top: 0;
-}
 
-.banner {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-image: url("../assets/imgs/banner-img.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 497px;
-    color: white;
-}
 
-.banner h1 {
-    text-transform: uppercase;
-    font-size: 35px;
-    margin-bottom: 20px;
-    font-weight: 800;
-    line-height: 1.2;
-    margin-bottom: 0;
-}
-
-.banner p {
-    line-height: 29px;
-    margin-bottom: 30px;
-}
-
-#banner-text {
-    margin-top: 0;
-}
-
-.banner-sub-header {
-    text-transform: uppercase;
-    font-size: 18px;
-}
-
-#banner-line {
-    width: 90%;
-    height: 2px;
-    background-color: white;
-    margin: 5px auto 5px auto;
-}
 
 .contact-button {
     display: flex;
