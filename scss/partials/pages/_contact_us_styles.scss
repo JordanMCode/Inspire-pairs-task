@@ -1,6 +1,6 @@
 .contact-content{
     width: 50%;
-    margin: 0 auto;
+    margin: 3rem auto;
     display: flex;
     div:first-child{
         width: 40%;
@@ -29,7 +29,7 @@
         textarea{
             border: 2px solid $purple;
             border-radius: .25rem;
-            padding: .375rem .75rem;
+            padding: .5rem .75rem;
             transition: border-color .25s ease-in-out;
             box-shadow: none;
             outline: 0;
@@ -39,6 +39,9 @@
                 border: 3px solid $purple;
                 outline: 0;
             }
+        }
+        input[type=text]{
+            height: 40px;
         }
         .gdpr-container{
             display: flex;
