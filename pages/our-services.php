@@ -1,5 +1,5 @@
 <div class="our-services">
-    <<div class="internal-page-banner our-services-img">
+    <div class="internal-page-banner our-services-img">
 
     </div>
     <div class="our-services-header">
