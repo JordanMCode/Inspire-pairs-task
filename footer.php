@@ -13,17 +13,17 @@
             <div class="footer-sections footer-block">
                 <h4>Sections</h4>
                 <ul>
-                    <a href="#">
+                    <a href="./index.php?page=pages/our-services.php">
                         <li>Our Services</li>
                     </a>
-                    <a href="#">
+                    <a href="./index.php?page=pages/about-us.php">
                         <li>About Us</li>
                     </a>
-                    <a href="#">
+                    <a href="./index.php?page=./pages/testimonials.php">
                         <li>Testimonials</li>
                     </a>
-                    <a href="#">
-                        <li>Privacy Policy</li>
+                    <a href="./index.php?page=./pages/contact-us.php">
+                        <li>Contact Us</li>
                     </a>
                 </ul>
             </div>
@@ -31,15 +31,15 @@
                 <h4>Follow Us On</h4>
                 <div class="social-blocks">
                     <a href="#" class="social-block facebook">
-                        <img src="../Inspire-pairs-task\assets\imgs\facebook.png" class="social-icon">
+                        <img src="./assets/imgs/facebook.png" class="social-icon">
                         <p>Facebook</p>
                     </a>
                     <a href="#" class="social-block twitter">
-                        <img src="../Inspire-pairs-task\assets\imgs\twitter.png" class="social-icon">
+                        <img src="./assets/imgs/twitter.png" class="social-icon">
                         <p>Twitter</p>
                     </a>
                     <a href="#" class="social-block linked">
-                        <img src="../Inspire-pairs-task\assets\imgs\linkedin.png" class="social-icon">
+                        <img src="./assets/imgs/linkedin.png" class="social-icon">
                         <p>LinkedIn</p>
                     </a>
                 </div>
