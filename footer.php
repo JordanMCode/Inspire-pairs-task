@@ -5,7 +5,7 @@
                 <ul>
                     <li><strong>Inspire Norfolk</strong></li>
                      <li>
-                        <a href="mailto:support@netmatters.com">jan@inspirenorfolk.co.uk</a>
+                        <a href="mailto:jan@inspirenorfolk.co.uk">jan@inspirenorfolk.co.uk</a>
                     </li>
                     <li><a href="#"> 01603670909</a></li>  
                 </ul>
@@ -31,15 +31,15 @@
                 <h4>Follow Us On</h4>
                 <div class="social-blocks">
                     <a href="#" class="social-block facebook">
-                        <img src="../Inspire-pairs-task\assets\imgs\facebook.png" class="social-icon">
+                        <img src=".\assets\imgs\facebook.png" class="social-icon">
                         <p>Facebook</p>
                     </a>
                     <a href="#" class="social-block twitter">
-                        <img src="../Inspire-pairs-task\assets\imgs\twitter.png" class="social-icon">
+                        <img src=".\assets\imgs\twitter.png" class="social-icon">
                         <p>Twitter</p>
                     </a>
                     <a href="#" class="social-block linked">
-                        <img src="../Inspire-pairs-task\assets\imgs\linkedin.png" class="social-icon">
+                        <img src=".\assets\imgs\linkedin.png" class="social-icon">
                         <p>LinkedIn</p>
                     </a>
                 </div>

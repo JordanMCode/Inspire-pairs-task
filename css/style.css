@@ -1352,7 +1352,7 @@ a {
   }
 }
 
-/* line 50, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+/* line 32, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 footer h4 {
   color: #584096;
   margin-bottom: 20px;
@@ -1361,38 +1361,38 @@ footer h4 {
   margin-top: 0;
 }
 
-/* line 58, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+/* line 40, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 footer p {
   margin-bottom: 0;
 }
 
-/* line 63, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+/* line 45, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-contact,
 .footer-sections,
 .footer-social {
   margin-top: 0;
 }
 
-/* line 69, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+/* line 51, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-contact,
 .footer-sections {
   padding-bottom: 24px;
 }
 
-/* line 74, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+/* line 56, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-sections li {
   line-height: 1.7;
   list-style-type: none;
   position: relative;
 }
 
-/* line 85, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+/* line 67, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .social-blocks {
   display: flex;
   flex-direction: column;
 }
 
-/* line 90, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+/* line 72, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .social-block {
   width: 100%;
   display: flex;
@@ -1400,20 +1400,20 @@ footer p {
   flex-wrap: nowrap;
 }
 
-/* line 97, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+/* line 79, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .social-block p {
   margin-top: 0;
   vertical-align: middle;
   font-weight: 500;
 }
 
-/* line 103, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+/* line 85, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .social-icon {
   margin: 5px;
   vertical-align: middle;
 }
 
-/* line 108, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
+/* line 90, C:/Users/Jordan/Desktop/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-copyright {
   display: flex;
   flex-direction: column;
