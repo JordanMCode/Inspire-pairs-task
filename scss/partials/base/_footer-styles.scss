@@ -3,12 +3,49 @@
 .footer-container {
     width: 100%;
     padding: 19px;
-    height: 565px;
+    height: fit-content;
+
+    @media screen and (min-width: 576px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
 }
 
 .footer-container a {
         color: #414012;
 }
+
+.footer-block {
+
+    height: fit-content;
+
+    @media screen and (min-width: 576px) {
+        width: 50%;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 33.333333%;
+    }
+}
+
+// .footer-contact {
+//     @media screen and (min-width: 576px) {
+//         order: 1
+//     }
+// }
+
+// .footer-sections {
+//     @media screen and (min-width: 576px) {
+//         order: 2
+//     }
+// }
+
+// .footer-social {
+//     @media screen and (min-width: 576px) {
+//         order: 3
+//     }
+// }
 
 footer h4 {
     color: $purple;
