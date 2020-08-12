@@ -5,17 +5,58 @@
     <div class="our-services-header">
         <h1>Our Services</h1>
     </div>
-    <div class="container purple-bg flex">
+    <section id="services">
+        <div class="container">
+            <ul class="services-container">
+                <li class="service">
+                    <div class="service-img-1"></div>
+                    <div class="service-overlay">
+                        <div></div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Apprentice Recruitment</h3>
+                        <p>Here at Inspire Norfolk we can take a look at your business needs and identify where an apprentice could really help you. We’ll create a job description, find an appropriate training provider, identify funding streams, advertise your post, shortlist, facilitate interviews and then give feedback to those people who attended.</p>
+                        <a class="btn-dark service-button-1">Learn More</a>
+                    </div>
+                </li>
+
+                <li class="service">
+                    <div class="service-img-2"></div>
+                    <div class="service-overlay">
+                        <div></div>
+                    </div>
+                    <div class="service-content">
+                        <h3>International Work Placements</h3>
+                        <p>Currently funded by Erasmus, this project sees students in a variety of placements with local companies across a range of sectors including retail, business, the trades and architectural services. Placements typically last between 4 and 13 weeks and the students improve their language skills, technical knowledge and self-confidence during their time with us.</p>
+                        <a class="btn-dark service-button-2">Learn More</a>
+                    </div>
+                </li>
+
+                <li class="service">
+                    <div class="service-img-3"></div>
+                    <div class="service-overlay">
+                        <div></div>
+                    </div>
+                    <div class="service-content">
+                        <h3>Bespoke Support</h3>
+                        <p>We can work with individuals to help fine tune their CV, to work on their interview skills or increase their self-confidence prior to finding a job. We also work with people who are already in the work place but may be struggling with a range of difficulties from disabilities, to chronic illness to mental health concerns.</p>
+                        <a class="btn-dark service-button-3">Learn More</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div class="container purple-bg flex service-block-1">
         <h3>Apprenticeship Recruitment</h3>
         <p>So you’re considering recruiting a new member of staff and want to understand an apprenticeship route. Here at Inspire Norfolk we can take a look at your business needs and identify where an apprentice could really help you. We’ll create a job description, find an appropriate training provider, identify funding streams, advertise your post, shortlist, facilitate interviews and then give feedback to those people who attended. We like to attend the interview with you so that we can answer any questions for the candidate and also give valuable feedback. In our opinion it’s so important that those applying for jobs, whether young or old, know where they did well and things they need to work on, so that they can go into their next interview better informed if they were unsuccessful. We take care of all of the “thanks, but no thanks calls”, and liaise with the training provider on your behalf. We can provide all the paperwork you require from offer letters to contracts of employments. If you want you only need to tell us what you want, sit back get on with doing your job and running your business and then turn up at the interview we’ll do all the hard work for you. We’re happy if you want to be more involved and we will work with you to develop each step. So if you think you could do with a little help give us a call and find out more.</p>
     </div>
-    <div class="container flex">
+    <div class="container flex service-block-2">
         <h3>International Work Placements</h3>
         <p>Inspire Norfolk has been working in partnership with Norfolk County Council since 2012 to support international students coming to Norwich on work placements. Currently funded by Erasmus, this project sees students in a variety of placements with local companies across a range of sectors including retail, business, the trades and architectural services. Placements typically last between 4 and 13 weeks and the students improve their language skills, technical knowledge and self-confidence during their time with us.
 
 The friendships between individual staff and students and business to business is fascinating to watch. Each year this project grows and will in the future hopefully include our young people going out to various countries to take part in a reciprocal agreement, so watch this space.</p>
     </div>
-    <div class="container purple-bg flex">
+    <div class="container purple-bg flex service-block-3">
         <h3>Bespoke Support</h3>
         <p>This area can cover a wide range of work. It is really important to us here at Inspire Norfolk that a young person or new employee navigates their route into work in a really positive way. We aim to contact everyone that applies for roles and we give feedback to everyone who attends an interview in person. Without this young people may flounder on their journey. Some people however need further support and we offer a range of services. We can work with individuals to help fine tune their CV, to work on their interview skills or increase their self-confidence prior to finding a job.
 
