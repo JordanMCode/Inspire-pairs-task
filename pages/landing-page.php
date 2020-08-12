@@ -9,7 +9,7 @@
                 <span id="banner-line"></span>
                 <p class="banner-sub-header">Looking for an apprentice?</p>
                 <p id="banner-text">We work with small businesses to create apprenticeship positions, and work with young people to get them in to the perfect opportunity.</p>
-                <a class="contact-button">Contact Us Today</a>
+                <a href="./index.php?page=./pages/contact-us.php" class="contact-button">Contact Us Today</a>
             </div>
         </div>
     </div>
@@ -72,7 +72,7 @@
         <div class="bg-container-purple">
             <div class="get-in-touch container">
                 <p>So if you think you could do with a little help give our experts a call today and find out more how we can find you an apprentice.</p>
-                <a class="get-in-touch-btn">Get In Touch</a>
+                <a href="./index.php?page=./pages/contact-us.php" class="get-in-touch-btn">Get In Touch</a>
             </div>
         </div>
     </div>

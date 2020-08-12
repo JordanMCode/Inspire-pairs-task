@@ -64,7 +64,7 @@
         margin-bottom: 20px;
         font-weight: 800;
         line-height: 1.2;
-        margin-bottom: 0;
+        margin: 0;
     }
 
     .banner p {
@@ -232,6 +232,7 @@ hr {
     .service-card-content {
         background: white;
         height: 100%;
+        cursor: pointer;
     }
 
     .service-card-img-1,
@@ -339,11 +340,22 @@ hr {
         justify-content: center;
         text-align: center;
         background-color: #fff;
+        border: 2px solid transparent;
         font-weight: 800;
         font-size: 24px;
         margin-left: auto;
         margin-right: auto;
-        padding: 9px 34px;
+        padding: 7px 34px;
+        padding-bottom: 10px;
         border-radius: 7px;
+        height: 55px;
+        transition: all .2s ease-in-out;
+
+        &:hover{
+            color: white;
+            background: $purple;
+            border: 2px solid #fff;
+            height: 55px;
+        }
     }
 }
