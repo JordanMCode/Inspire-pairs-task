@@ -18,6 +18,10 @@
         justify-content: center;
         margin-top: 0;
         width: 100%;
+
+        @media screen and (min-width: 576px) {
+        height: 665px;
+    }
     }
 
     .banner-content {
@@ -26,9 +30,11 @@
         justify-content: center;
         height: 665px;
         margin-top: 0;
+        position: relative;
 
         @media screen and (min-width: 576px) {
         max-width: 540px;
+        height: 665px;
     }
 
     @media screen and (min-width: 768px) {
@@ -52,10 +58,13 @@
         text-align: center;
         background-image: url("../assets/imgs/banner-img.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
         background-position: center;
         height: 497px;
         color: white;
+
+        @media screen and (min-width: 576px) {
+        height: 665px;
+    }
     }
 
     .banner h1 {
@@ -89,7 +98,6 @@
     }
 
 
-
     .welcome h3 {
         font-weight: 800;
         color: $purple;
@@ -103,9 +111,10 @@
 
     .welcome {
         margin-bottom: 40px;
-        text-align: left;
+        text-align: center;
     }
 
+    
 
     .services {
         display: flex;
@@ -135,29 +144,21 @@
     }
 }
 
-    .services h3:after {
+    .services h3::after {
         display: block;
+        content: "";
+        margin-top: 20px;
         height: 2px;
         width: 75%;
         background: white;
         position: absolute;
-
-    //     @media screen and (min-width: 768px) {
-    //     display: block;
-    // }
 }
 
-    // .services hr {
-    //     background-color: #fff;
-    //     width: 150px;
-    //     height: 2px;
-    //     margin-left: 0;
-    //     margin-right: auto;
-    // }
 
     .services p {
         margin: 0 0 16px;
         padding-top: 8px;
+        text-align: left;
     }
 
     .service-text {
@@ -290,6 +291,7 @@ hr {
         padding-top: 8px;
         margin-bottom: 16px;
         color: black;
+        text-align: center;
     }
 
     .service-card-text {
@@ -323,6 +325,7 @@ hr {
     .get-in-touch p {
         color: white;
         font-size: 18px;
+        text-align: left;
     }
 
     .get-in-touch {
@@ -332,6 +335,11 @@ hr {
         justify-content: center;
         text-align: center;
         padding: 40px 0;
+
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
     }
 
     .get-in-touch-btn {
@@ -345,5 +353,12 @@ hr {
         margin-right: auto;
         padding: 9px 34px;
         border-radius: 7px;
+
+        @media screen and (min-width: 768px) {
+            width: 290px;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 30px;
+        }
     }
 }
