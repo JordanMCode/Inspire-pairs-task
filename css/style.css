@@ -1274,32 +1274,36 @@ ul, ol {
   }
 }
 
-/* line 150, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
-.our-services [class*="service-block"] {
-  padding: 1rem;
+/* line 149, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+.our-services #blocks {
   margin: 1rem auto;
+}
+
+/* line 152, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+.our-services #blocks [class*="service-block"] {
+  padding: 1rem;
   transition: all 0.8s ease-in-out;
   display: none;
   opacity: 0;
 }
 
-/* line 157, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
-.our-services .not-active {
+/* line 158, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+.our-services #blocks .not-active {
   opacity: 0;
 }
 
-/* line 160, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
-.our-services .active {
+/* line 161, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+.our-services #blocks .active {
   opacity: 1;
 }
 
-/* line 164, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 167, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services .get-in-touch p {
   color: white;
   font-size: 18px;
 }
 
-/* line 169, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 172, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services .get-in-touch {
   background: #584096;
   display: flex;
@@ -1309,7 +1313,7 @@ ul, ol {
   padding: 40px 0;
 }
 
-/* line 178, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 181, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services .get-in-touch-btn {
   display: flex;
   justify-content: center;
