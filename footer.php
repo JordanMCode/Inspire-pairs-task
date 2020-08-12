@@ -5,7 +5,7 @@
                 <ul>
                     <li><strong>Inspire Norfolk</strong></li>
                      <li>
-                        <a href="mailto:support@netmatters.com">jan@inspirenorfolk.co.uk</a>
+                        <a href="mailto:jan@inspirenorfolk.co.uk">jan@inspirenorfolk.co.uk</a>
                     </li>
                     <li><a href="#"> 01603670909</a></li>  
                 </ul>
