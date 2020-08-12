@@ -146,20 +146,23 @@
             }
         }
     } 
-
-    [class*="service-block"]{
-        padding: 1rem;
+    #blocks{
         margin: 1rem auto;
-        transition: all 0.8s ease-in-out;
-        display: none;
-        opacity: 0;
+
+        [class*="service-block"]{
+            padding: 1rem;
+            transition: all 0.8s ease-in-out;
+            display: none;
+            opacity: 0;
+        }
+        .not-active{
+            opacity: 0;
+        }
+        .active{
+            opacity: 1;
+        }
     }
-    .not-active{
-        opacity: 0;
-    }
-    .active{
-        opacity: 1;
-    }
+    
     
     .get-in-touch p {
         color: white;

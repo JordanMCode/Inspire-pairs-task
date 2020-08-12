@@ -24,6 +24,9 @@ $(".service-button-1").click(function() {
         $(".service-block-1").css("display", "block");
     }, 800);
     setTimeout(function(){ serviceBlocks[0].className = "container purple-bg flex service-block-1 active"}, 900);
+    if ($(window).width() <= 1100){
+        setTimeout(function(){ window.location.href = 'index.php?page=pages/our-services.php#blocks'; }, 901);
+    }
 });
 
 $(".service-button-2").click(function() {
@@ -34,6 +37,9 @@ $(".service-button-2").click(function() {
         $(".service-block-2").css("display", "block");
     }, 800);
     setTimeout(function(){ serviceBlocks[1].className = "container purple-bg flex service-block-2 active"}, 900);
+    if ($(window).width() <= 1100){
+        setTimeout(function(){ window.location.href = 'index.php?page=pages/our-services.php#blocks'; }, 901);
+    }
 });
 
 $(".service-button-3").click(function() {
@@ -44,4 +50,7 @@ $(".service-button-3").click(function() {
         $(".service-block-3").css("display", "block");
     }, 800);
     setTimeout(function(){ serviceBlocks[2].className = "container purple-bg flex service-block-3 active"}, 900);
+    if ($(window).width() <= 1100){
+        setTimeout(function(){ window.location.href = 'index.php?page=pages/our-services.php#blocks'; }, 901);
+    }
 });
