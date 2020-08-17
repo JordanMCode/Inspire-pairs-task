@@ -1,7 +1,4 @@
-
-
-.landing-page{
-
+.landing-page {
     .banner-container {
         width: 100%;
         padding-right: 15px;
@@ -11,13 +8,17 @@
     }
 
     .banner-bg {
-        background-color: rgba(0,0,0,.7);
+        background-color: rgba(0, 0, 0, 0.7);
         height: 497px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-top: 0;
         width: 100%;
+
+        @media screen and (min-width: 576px) {
+            height: 665px;
+        }
     }
 
     .banner-content {
@@ -26,23 +27,25 @@
         justify-content: center;
         height: 665px;
         margin-top: 0;
+        position: relative;
 
         @media screen and (min-width: 576px) {
-        max-width: 540px;
-    }
+            max-width: 540px;
+            height: 665px;
+        }
 
-    @media screen and (min-width: 768px) {
-        max-width: 720px;
-    }
+        @media screen and (min-width: 768px) {
+            max-width: 720px;
+        }
 
-    @media screen and (min-width: 992px) {
-        max-width: 960px;
-    }
+        @media screen and (min-width: 992px) {
+            max-width: 960px;
+        }
 
-    @media screen and (min-width: 1200px) {
-        max-width: 1140px;
+        @media screen and (min-width: 1200px) {
+            max-width: 1140px;
+        }
     }
-}
 
     .banner {
         display: flex;
@@ -52,10 +55,13 @@
         text-align: center;
         background-image: url("../assets/imgs/banner-img.jpg");
         background-repeat: no-repeat;
-        background-size: cover;
         background-position: center;
         height: 497px;
         color: white;
+
+        @media screen and (min-width: 576px) {
+            height: 665px;
+        }
     }
 
     .banner h1 {
@@ -64,7 +70,7 @@
         margin-bottom: 20px;
         font-weight: 800;
         line-height: 1.2;
-        margin: 0;
+        margin-bottom: 0;
     }
 
     .banner p {
@@ -88,8 +94,6 @@
         margin: 5px auto 5px auto;
     }
 
-
-
     .welcome h3 {
         font-weight: 800;
         color: $purple;
@@ -99,13 +103,12 @@
 
     .welcome p {
         font-size: 1.2rem;
-    } 
+    }
 
     .welcome {
         margin-bottom: 40px;
-        text-align: left;
+        text-align: center;
     }
-
 
     .services {
         display: flex;
@@ -118,8 +121,8 @@
         @media screen and (min-width: 768px) {
             flex-direction: row;
             flex-wrap: wrap;
+        }
     }
-}
 
     .services h3 {
         margin-bottom: 1.5rem;
@@ -128,36 +131,27 @@
         position: relative;
 
         @media screen and (min-width: 768px) {
-        padding-bottom: 24px;
-        margin-bottom: 50px;
-        width: 250px;
-        margin-right: 50px;
+            padding-bottom: 24px;
+            margin-bottom: 50px;
+            width: 250px;
+            margin-right: 50px;
+        }
     }
-}
 
-    .services h3:after {
+    .services h3::after {
         display: block;
+        content: "";
+        margin-top: 20px;
         height: 2px;
         width: 75%;
         background: white;
         position: absolute;
-
-    //     @media screen and (min-width: 768px) {
-    //     display: block;
-    // }
-}
-
-    // .services hr {
-    //     background-color: #fff;
-    //     width: 150px;
-    //     height: 2px;
-    //     margin-left: 0;
-    //     margin-right: auto;
-    // }
+    }
 
     .services p {
         margin: 0 0 16px;
         padding-top: 8px;
+        text-align: left;
     }
 
     .service-text {
@@ -166,64 +160,60 @@
         flex-wrap: wrap;
 
         @media screen and (min-width: 768px) {
-        max-width: 100%;
-        flex-wrap: nowrap;
+            max-width: 100%;
+            flex-wrap: nowrap;
+        }
     }
-}
 
-hr {
-    @media screen and (min-width: 768px) {
-        display: none;
+    hr {
+        @media screen and (min-width: 768px) {
+            display: none;
+        }
     }
-}
-
 
     #service-card-1,
     #service-card-2 {
-        
         @media screen and (min-width: 768px) {
-        max-width: 50%;
-        height: 475px;
+            max-width: 50%;
+            height: 475px;
+        }
+
+        @media screen and (min-width: 768px) {
+            height: 500px;
+        }
     }
 
-          @media screen and (min-width: 768px) {
-        height: 500px;
+    #service-card-1,
+    #service-card-2,
+    #service-card-3 {
+        @media screen and (min-width: 992px) {
+            max-width: 33.33333%;
+        }
     }
-}
-
-#service-card-1,
-#service-card-2,
-#service-card-3 {
-    @media screen and (min-width: 992px) {
-        max-width: 33.33333%
-    }
-}
-
-#service-card-2 {
-    @media screen and (min-width: 992px) {
-        padding-right: 15px;
-    }
-}
-
-#service-card-3 {
-    @media screen and (min-width: 992px) {
-        padding-left: 15px;
-    }
-}
-
-#service-card-1 {
-    
-    @media screen and (min-width: 768px) {
-    padding-right: 15px;
-    }
-}
 
     #service-card-2 {
-    
-    @media screen and (min-width: 768px) {
-    padding-left: 15px;
+        @media screen and (min-width: 992px) {
+            padding-right: 15px;
+        }
     }
-}
+
+    #service-card-3 {
+        @media screen and (min-width: 992px) {
+            padding-left: 15px;
+        }
+    }
+
+    #service-card-1 {
+        @media screen and (min-width: 768px) {
+            padding-right: 15px;
+        }
+    }
+
+    #service-card-2 {
+        @media screen and (min-width: 768px) {
+            padding-left: 15px;
+        }
+    }
 
     .service-card {
         margin-bottom: 3rem;
@@ -232,7 +222,6 @@ hr {
     .service-card-content {
         background: white;
         height: 100%;
-        cursor: pointer;
     }
 
     .service-card-img-1,
@@ -274,7 +263,7 @@ hr {
         position: absolute;
         bottom: 50%;
         left: 50%;
-        transform: translate(-50%,50%);
+        transform: translate(-50%, 50%);
     }
 
     .service-card-text h4 {
@@ -291,6 +280,7 @@ hr {
         padding-top: 8px;
         margin-bottom: 16px;
         color: black;
+        text-align: center;
     }
 
     .service-card-text {
@@ -300,7 +290,6 @@ hr {
         padding: 55px 25px 20px;
         position: relative;
     }
-
 
     .secondary-info {
         text-align: center;
@@ -320,10 +309,10 @@ hr {
         margin-top: 0;
     }
 
-
     .get-in-touch p {
         color: white;
         font-size: 18px;
+        text-align: left;
     }
 
     .get-in-touch {
@@ -333,6 +322,11 @@ hr {
         justify-content: center;
         text-align: center;
         padding: 40px 0;
+
+        @media screen and (min-width: 768px) {
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
     }
 
     .get-in-touch-btn {
@@ -340,22 +334,18 @@ hr {
         justify-content: center;
         text-align: center;
         background-color: #fff;
-        border: 2px solid transparent;
         font-weight: 800;
         font-size: 24px;
         margin-left: auto;
         margin-right: auto;
-        padding: 7px 34px;
-        padding-bottom: 10px;
+        padding: 9px 34px;
         border-radius: 7px;
-        height: 55px;
-        transition: all .2s ease-in-out;
 
-        &:hover{
-            color: white;
-            background: $purple;
-            border: 2px solid #fff;
-            height: 55px;
+        @media screen and (min-width: 768px) {
+            width: 290px;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 30px;
         }
     }
 }
