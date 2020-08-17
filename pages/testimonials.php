@@ -1,4 +1,8 @@
 <div class="testimonials">
+
+    <div class="internal-page-banner testimonials-img">
+
+    </div>
     <div class="container">
         <h1>Testimonials</h1>
     </div>
