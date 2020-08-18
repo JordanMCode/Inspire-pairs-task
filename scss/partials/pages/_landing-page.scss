@@ -1,37 +1,65 @@
 .landing-page {
     .banner-container {
         width: 100%;
-        padding-right: 15px;
-        padding-left: 15px;
+        padding: 15px;
         margin-right: auto;
         margin-left: auto;
     }
 
     .banner-bg {
         background-color: rgba(0, 0, 0, 0.7);
-        height: 497px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-top: 0;
         width: 100%;
+        position: relative;
+        height: 665px;
 
         @media screen and (min-width: 576px) {
             height: 665px;
         }
+        @media screen and (min-width: 1300px){
+            background-color: rgba(0, 0, 0, 0);
+        }
     }
 
+    .banner-content-container{
+        height: 100%;
+        width: 50%;
+        margin: 0 auto;
+        position: relative;
+
+        @media screen and (max-width: 1900px){
+            width: 55%;
+        }
+        @media screen and (max-width: 1750px){
+            width: 60%;
+        }
+        @media screen and (max-width: 1600px){
+            width: 65%;
+        }
+        @media screen and (max-width: 1500px){
+            width: 70%;
+        }
+        @media screen and (max-width: 1400px){
+            width: 75%;
+        }
+        @media screen and (max-width: 1300px){
+            margin: 0;
+            width: 100%;
+        }
+    }
     .banner-content {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        height: 665px;
         margin-top: 0;
         position: relative;
+        height: 665px;
 
         @media screen and (min-width: 576px) {
             max-width: 540px;
-            height: 665px;
         }
 
         @media screen and (min-width: 768px) {
@@ -45,6 +73,18 @@
         @media screen and (min-width: 1200px) {
             max-width: 1140px;
         }
+
+        @media screen and (min-width: 1300px){
+            position: absolute;
+            width: 500px;
+            
+            text-align: left;
+
+            #banner-line,
+            a{
+                margin-left: 0;
+            }
+        }
     }
 
     .banner {
@@ -54,23 +94,28 @@
         align-items: center;
         text-align: center;
         background-image: url("../assets/imgs/banner-img.jpg");
+        background-size: cover;
+        background-color: none;
         background-repeat: no-repeat;
         background-position: center;
-        height: 497px;
+        height: 665px;
         color: white;
 
         @media screen and (min-width: 576px) {
             height: 665px;
+        }
+        @media screen and (min-width: 1300px){
+            background-image: url("../assets/imgs/banner-img-big.PNG");
         }
     }
 
     .banner h1 {
         text-transform: uppercase;
         font-size: 35px;
-        margin-bottom: 20px;
         font-weight: 800;
         line-height: 1.2;
         margin-bottom: 0;
+        margin-top: 0.67rem;
     }
 
     .banner p {
@@ -222,6 +267,7 @@
     .service-card-content {
         background: white;
         height: 100%;
+        cursor: pointer;
     }
 
     .service-card-img-1,
@@ -321,7 +367,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        padding: 40px 0;
+        padding: 40px;
 
         @media screen and (min-width: 768px) {
             flex-direction: row;
@@ -340,6 +386,14 @@
         margin-right: auto;
         padding: 9px 34px;
         border-radius: 7px;
+        transition: all .2s ease-in-out;
+
+        &:hover{
+            background: $purple;
+            color: white;
+            border: 2px solid #fff;
+            border-radius: 7px;
+        }
 
         @media screen and (min-width: 768px) {
             width: 290px;
