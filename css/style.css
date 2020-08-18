@@ -698,6 +698,30 @@ footer p {
   background-color: #584096;
   color: white; }
 
+.get-in-touch-btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #fff;
+  font-weight: 800;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 9px 34px;
+  border-radius: 7px;
+  transition: all .2s ease-in-out; }
+  .get-in-touch-btn:hover {
+    background: #584096;
+    color: white;
+    border: 2px solid #fff;
+    border-radius: 7px; }
+  @media screen and (min-width: 768px) {
+    .get-in-touch-btn {
+      width: 290px;
+      margin-top: auto;
+      margin-bottom: auto;
+      margin-left: 30px; } }
+
 .landing-page .banner-container {
   width: 100%;
   padding: 15px;
@@ -971,29 +995,6 @@ footer p {
     .landing-page .get-in-touch {
       flex-direction: row;
       flex-wrap: nowrap; } }
-.landing-page .get-in-touch-btn {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  background-color: #fff;
-  font-weight: 800;
-  font-size: 24px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 9px 34px;
-  border-radius: 7px;
-  transition: all .2s ease-in-out; }
-  .landing-page .get-in-touch-btn:hover {
-    background: #584096;
-    color: white;
-    border: 2px solid #fff;
-    border-radius: 7px; }
-  @media screen and (min-width: 768px) {
-    .landing-page .get-in-touch-btn {
-      width: 290px;
-      margin-top: auto;
-      margin-bottom: auto;
-      margin-left: 30px; } }
 
 .our-services-img {
   background-image: url(../assets/imgs/banner-img.jpg); }
@@ -1121,18 +1122,10 @@ footer p {
   justify-content: center;
   text-align: center;
   padding: 40px 0; }
-.our-services .get-in-touch-btn {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  background-color: #fff;
-  font-weight: 800;
-  font-size: 24px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 9px 34px;
-  border-radius: 7px;
-  cursor: pointer; }
+  .our-services .get-in-touch a {
+    margin: 0 auto;
+    cursor: pointer;
+    height: 55px; }
 
 .about-us {
   font-size: 100px; }
