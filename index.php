@@ -8,6 +8,7 @@
     <!-- Pushy CSS -->
     <link rel="stylesheet" href="css/pushy.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
     <script src="https://kit.fontawesome.com/145bf61ced.js" crossorigin="anonymous"></script>
 </head>
     <body>
