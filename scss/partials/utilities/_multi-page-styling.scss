@@ -92,3 +92,31 @@
     background-color: $purple;
     color: white;
 }
+
+.get-in-touch-btn {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #fff;
+    font-weight: 800;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 9px 34px;
+    border-radius: 7px;
+    transition: all .2s ease-in-out;
+
+    &:hover{
+        background: $purple;
+        color: white;
+        border: 2px solid #fff;
+        border-radius: 7px;
+    }
+
+    @media screen and (min-width: 768px) {
+        width: 290px;
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-left: 30px;
+    }
+}
