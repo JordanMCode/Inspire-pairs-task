@@ -427,8 +427,32 @@ a {
 
 .header-container {
   height: 103px;
-  width: 50%;
+  width: 60%;
   margin: 0 auto; }
+  @media screen and (max-width: 1900px) {
+    .header-container {
+      width: 55%; } }
+  @media screen and (max-width: 1750px) {
+    .header-container {
+      width: 60%; } }
+  @media screen and (max-width: 1600px) {
+    .header-container {
+      width: 65%; } }
+  @media screen and (max-width: 1500px) {
+    .header-container {
+      width: 70%; } }
+  @media screen and (max-width: 1400px) {
+    .header-container {
+      width: 75%; } }
+  @media screen and (max-width: 850px) {
+    .header-container {
+      width: 80%; } }
+  @media screen and (max-width: 550px) {
+    .header-container {
+      width: 90%; } }
+  @media screen and (max-width: 300px) {
+    .header-container {
+      width: 95%; } }
 
 .header-items {
   width: 100%;
@@ -446,6 +470,9 @@ a {
   max-width: 35%;
   min-width: 100px;
   height: auto; }
+  @media screen and (max-width: 1000px) {
+    #logo-container {
+      margin-left: 20px; } }
 
 #main-logo {
   height: auto;
@@ -464,6 +491,9 @@ a {
   left: auto;
   right: 36px;
   top: 36px; }
+  @media screen and (min-width: 1255px) {
+    .burger-button {
+      display: none; } }
 
 #burger-line-1,
 #burger-line-2,
@@ -488,7 +518,16 @@ a {
   display: none; }
   .full-nav-items .nav-link {
     margin: 0 20px;
-    font-size: 1.3rem; }
+    font-size: 1.3rem;
+    border-bottom: solid 0px #584096;
+    transition: border-width 0.1s linear;
+    padding-bottom: 5px; }
+    .full-nav-items .nav-link:hover {
+      border-width: 3px; }
+    .full-nav-items .nav-link:hover:last-child {
+      border-width: 0px; }
+    .full-nav-items .nav-link.active {
+      border-width: 3px; }
   .full-nav-items .nav-link:last-child {
     margin: 0; }
   .full-nav-items .phone {
@@ -506,6 +545,9 @@ a {
       padding: 10px;
       border-radius: 50%;
       transform: rotateZ(90deg); }
+  @media screen and (min-width: 1255px) {
+    .full-nav-items {
+      display: block; } }
 
 .contact-button {
   display: flex;
@@ -524,27 +566,6 @@ a {
     color: #584096;
     background: #FFFFFF; }
 
-@media screen and (min-width: 1900px) {
-  .burger-button {
-    display: none; }
-
-  .full-nav-items {
-    display: block; } }
-@media screen and (max-width: 1750px) {
-  .header-container {
-    width: 60%; } }
-@media screen and (max-width: 1500px) {
-  .header-container {
-    width: 70%; } }
-@media screen and (max-width: 1200px) {
-  .header-container {
-    width: 80%; } }
-@media screen and (max-width: 1000px) {
-  .header-container {
-    width: 100%; }
-
-  #logo-container {
-    margin-left: 20px; } }
 .footer-container {
   width: 100%;
   padding: 19px;
@@ -637,8 +658,7 @@ footer p {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto; }
+  margin: 0 auto; }
   @media screen and (min-width: 576px) {
     .container {
       max-width: 540px; } }
@@ -681,14 +701,20 @@ footer p {
   background-position: center; }
 
 .info-container h1 {
-  font-size: 36px;
+  font-size: 30px;
   margin: 36px 0;
   color: #584096; }
+  @media screen and (min-width: 1000px) {
+    .info-container h1 {
+      font-size: 36px; } }
 
 .info-container p {
-  font-size: 22px;
+  font-size: 17px;
   margin: 0 0 16px;
   padding: 16px 0 0; }
+  @media screen and (min-width: 1000px) {
+    .info-container p {
+      font-size: 22px; } }
 
 .info-container {
   display: flex;
@@ -997,7 +1023,9 @@ footer p {
       flex-wrap: nowrap; } }
 
 .our-services-img {
-  background-image: url(../assets/imgs/banner-img.jpg); }
+  background-image: url(../assets/imgs/services.jpeg);
+  background-position: right;
+  background-size: cover; }
 
 .our-services p {
   font-size: 19px;
@@ -1130,18 +1158,33 @@ footer p {
 .about-us {
   font-size: 100px; }
   .about-us .about-us-img {
-    background: url(../assets/imgs/phone.jpg);
+    background: url(../assets/imgs/about.jpeg);
     background-position: center;
     background-size: cover; }
 
 .testimonials p {
-  font-size: 20px; }
+  font-size: 17px; }
+  @media screen and (min-width: 1000px) {
+    .testimonials p {
+      font-size: 22px; } }
 .testimonials .testimonials-img {
   background: url(../assets/imgs/bespoke.jpg);
   background-position: center;
   background-size: cover; }
 .testimonials .container {
   padding: 20px; }
+  .testimonials .container h1 {
+    font-size: 30px; }
+    @media screen and (min-width: 1000px) {
+      .testimonials .container h1 {
+        font-size: 36px; } }
+.testimonials .testimonials-title-container {
+  padding-bottom: 1px; }
+
+.contact-us-img {
+  background: url(../assets/imgs/contact.jpg);
+  background-position: center;
+  background-size: cover; }
 
 .contact-content {
   width: 50%;

@@ -1,4 +1,4 @@
-<div class="internal-page-banner our-services-img"></div>
+<div class="internal-page-banner contact-us-img"></div>
 <div class="contact-content">
     <div>
         <h1>Contact Us</h1>

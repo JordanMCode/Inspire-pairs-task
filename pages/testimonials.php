@@ -3,7 +3,7 @@
     <div class="internal-page-banner testimonials-img">
 
     </div>
-    <div class="container">
+    <div class="container testimonials-title-container">
         <h1>Testimonials</h1>
     </div>
     <div class="container">
