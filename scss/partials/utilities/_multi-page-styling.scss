@@ -15,8 +15,8 @@
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+    margin: 0 auto;
+
 
     @media screen and (min-width: 576px) {
         max-width: 540px;
@@ -72,15 +72,23 @@
 }
 
 .info-container h1 {
-    font-size: 36px;
+    font-size: 30px;
     margin: 36px 0;
     color: $purple;
+
+    @media screen and (min-width: 1000px){
+        font-size: 36px;
+    }
 }
 
 .info-container p {
-    font-size: 22px;
+    font-size: 17px;
     margin: 0 0 16px;
     padding: 16px 0 0;
+
+    @media screen and (min-width: 1000px){
+        font-size: 22px;
+    }
 }
 
 .info-container {

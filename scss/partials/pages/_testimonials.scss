@@ -1,6 +1,9 @@
 .testimonials {
     p {
-        font-size: 20px;
+        font-size: 17px;
+        @media screen and (min-width: 1000px){
+            font-size: 22px;
+        }
     }
 
     .testimonials-img {
@@ -11,5 +14,16 @@
 
     .container {
         padding: 20px;
+
+        h1{
+            font-size: 30px;
+
+            @media screen and (min-width: 1000px){
+                font-size: 36px;
+            }
+        }
+    }
+    .testimonials-title-container{
+        padding-bottom: 1px;
     }
 }
