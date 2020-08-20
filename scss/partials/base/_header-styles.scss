@@ -1,8 +1,33 @@
 
 .header-container {
     height: 103px;
-    width: 50%;
+    width: 60%;
     margin: 0 auto;
+
+    @media screen and (max-width: 1900px){
+        width: 55%;
+    }
+    @media screen and (max-width: 1750px){
+        width: 60%;
+    }
+    @media screen and (max-width: 1600px){
+        width: 65%;
+    }
+    @media screen and (max-width: 1500px){
+        width: 70%;
+    }
+    @media screen and (max-width: 1400px){
+        width: 75%;
+    }
+    @media screen and (max-width: 850px){
+        width: 80%;
+    }
+    @media screen and (max-width: 550px){
+        width: 90%;
+    }
+    @media screen and (max-width: 300px){
+        width: 95%;
+    }
 }
 
 
@@ -23,6 +48,10 @@
     max-width: 35%;
     min-width: 100px;
     height: auto;
+
+    @media screen and (max-width: 1000px){
+        margin-left: 20px;
+    }
 }
 
 #main-logo {
@@ -43,6 +72,10 @@
     left: auto;
     right: 36px;
     top: 36px;
+
+    @media screen and (min-width: 1255px){
+        display: none;
+    }
 }
 
 #burger-line-1,
@@ -74,6 +107,20 @@
     .nav-link{
         margin: 0 20px;
         font-size: 1.3rem;
+        border-bottom: solid 0px $purple;
+        transition: border-width 0.1s linear;
+        padding-bottom: 5px;
+
+        &:hover{
+            border-width: 3px;
+        }
+        &:hover:last-child{
+            border-width: 0px;
+        }
+
+        &.active{
+            border-width: 3px;
+        }
     }
     .nav-link:last-child{
         margin: 0;
@@ -96,6 +143,10 @@
 
             transform: rotateZ(90deg);
         }
+    }
+
+    @media screen and (min-width: 1255px){
+        display: block;
     }
 }
 
@@ -121,36 +172,3 @@
         background: $white;
     }
 }
-
-    @media screen and (min-width: 1900px){
-        .burger-button{
-            display: none;
-        }
-        .full-nav-items{
-            display: block;
-        }
-    }
-
-    @media screen and (max-width: 1750px){
-        .header-container{
-            width: 60%;
-        }
-    }
-    @media screen and (max-width: 1500px){
-        .header-container{
-            width: 70%;
-        }
-    }
-    @media screen and (max-width: 1200px){
-        .header-container{
-            width: 80%;
-        }
-    }
-    @media screen and (max-width: 1000px){
-        .header-container{
-            width: 100%;
-        }
-        #logo-container{
-            margin-left: 20px;
-        }
-    }

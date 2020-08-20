@@ -474,7 +474,8 @@ template {
    * List styles
    */
 /* line 456, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_reset.scss */
-ul, ol {
+ul,
+ol {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -483,15 +484,16 @@ ul, ol {
 /* line 2, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
 * {
   box-sizing: border-box;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: normal;
   background: none;
   border: none;
-  letter-spacing: .4px;
+  letter-spacing: 0.4px;
 }
 
 /* line 10, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_base-styles.scss */
-html, body {
+html,
+body {
   width: 100%;
   height: 100%;
   margin: 0px;
@@ -524,8 +526,48 @@ a {
 /* line 2, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .header-container {
   height: 103px;
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
+}
+@media screen and (max-width: 1900px) {
+  .header-container {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 1750px) {
+  .header-container {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .header-container {
+    width: 65%;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .header-container {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .header-container {
+    width: 75%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .header-container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 550px) {
+  .header-container {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 300px) {
+  .header-container {
+    width: 95%;
+  }
 }
 
 /* line 9, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
@@ -548,6 +590,11 @@ a {
   min-width: 100px;
   height: auto;
 }
+@media screen and (max-width: 1000px) {
+  #logo-container {
+    margin-left: 20px;
+  }
+}
 
 /* line 28, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 #main-logo {
@@ -569,6 +616,11 @@ a {
   left: auto;
   right: 36px;
   top: 36px;
+}
+@media screen and (min-width: 1255px) {
+  .burger-button {
+    display: none;
+  }
 }
 
 /* line 48, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
@@ -602,11 +654,47 @@ a {
 .full-nav-items {
   display: none;
 }
-
-/* line 74, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .full-nav-items .nav-link {
   margin: 0 20px;
   font-size: 1.3rem;
+  border-bottom: solid 0px #584096;
+  transition: border-width 0.1s linear;
+  padding-bottom: 5px;
+}
+.full-nav-items .nav-link:hover {
+  border-width: 3px;
+}
+.full-nav-items .nav-link:hover:last-child {
+  border-width: 0px;
+}
+.full-nav-items .nav-link.active {
+  border-width: 3px;
+}
+.full-nav-items .nav-link:last-child {
+  margin: 0;
+}
+.full-nav-items .phone {
+  display: inline;
+  color: white;
+  background: #584096;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+.full-nav-items .phone strong {
+  margin-left: 5px;
+}
+.full-nav-items .phone i {
+  background: white;
+  color: #584096;
+  padding: 10px;
+  border-radius: 50%;
+  transform: rotateZ(90deg);
+}
+@media screen and (min-width: 1255px) {
+  .full-nav-items {
+    display: block;
+  }
 }
 
 /* line 78, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
@@ -650,60 +738,16 @@ a {
   font-weight: 500;
   margin: 0 auto 0.67rem auto;
   height: 60px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
 
 /* line 119, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .contact-button:hover {
   color: #584096;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
-@media screen and (min-width: 1900px) {
-  /* line 126, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .burger-button {
-    display: none;
-  }
-  /* line 129, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .full-nav-items {
-    display: block;
-  }
-}
-
-@media screen and (max-width: 1750px) {
-  /* line 135, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .header-container {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 1500px) {
-  /* line 140, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .header-container {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  /* line 145, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .header-container {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  /* line 150, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .header-container {
-    width: 100%;
-  }
-  /* line 153, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  #logo-container {
-    margin-left: 20px;
-  }
-}
-
-/* line 3, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-container {
   width: 100%;
   padding: 19px;
@@ -838,28 +882,26 @@ footer p {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 0 auto;
 }
-
 @media screen and (min-width: 576px) {
-  /* line 14, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
   .container {
     max-width: 540px;
   }
 }
-
 @media screen and (min-width: 768px) {
-  /* line 14, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
   .container {
     max-width: 720px;
   }
 }
-
 @media screen and (min-width: 992px) {
-  /* line 14, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
   .container {
     max-width: 960px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
 }
 
@@ -919,16 +961,26 @@ footer p {
 
 /* line 74, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .info-container h1 {
-  font-size: 36px;
+  font-size: 30px;
   margin: 36px 0;
   color: #584096;
+}
+@media screen and (min-width: 1000px) {
+  .info-container h1 {
+    font-size: 36px;
+  }
 }
 
 /* line 80, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .info-container p {
-  font-size: 22px;
+  font-size: 17px;
   margin: 0 0 16px;
   padding: 16px 0 0;
+}
+@media screen and (min-width: 1000px) {
+  .info-container p {
+    font-size: 22px;
+  }
 }
 
 /* line 86, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
@@ -955,7 +1007,7 @@ footer p {
   margin-right: auto;
   padding: 9px 34px;
   border-radius: 7px;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 /* line 109, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
@@ -1463,7 +1515,9 @@ footer p {
 
 /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services-img {
-  background-image: url(../assets/imgs/banner-img.jpg);
+  background-image: url(../assets/imgs/services.jpeg);
+  background-position: right;
+  background-size: cover;
 }
 
 /* line 6, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
@@ -1581,7 +1635,7 @@ footer p {
 /* line 92, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services #services .services-container .service .service-content a[class^="btn"]:hover {
   color: #584096;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 /* line 99, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
@@ -1694,6 +1748,11 @@ footer p {
 .about-us {
   font-size: 100px;
 }
+.about-us .about-us-img {
+  background: url(../assets/imgs/about.jpeg);
+  background-position: center;
+  background-size: cover;
+}
 
 /* line 5, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_about-us-styles.scss */
 .about-us .about-us-img {
@@ -1704,10 +1763,13 @@ footer p {
 
 /* line 2, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_testimonials.scss */
 .testimonials p {
-  font-size: 20px;
+  font-size: 17px;
 }
-
-/* line 6, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_testimonials.scss */
+@media screen and (min-width: 1000px) {
+  .testimonials p {
+    font-size: 22px;
+  }
+}
 .testimonials .testimonials-img {
   background: url(../assets/imgs/bespoke.jpg);
   background-position: center;
@@ -1717,6 +1779,23 @@ footer p {
 /* line 12, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_testimonials.scss */
 .testimonials .container {
   padding: 20px;
+}
+.testimonials .container h1 {
+  font-size: 30px;
+}
+@media screen and (min-width: 1000px) {
+  .testimonials .container h1 {
+    font-size: 36px;
+  }
+}
+.testimonials .testimonials-title-container {
+  padding-bottom: 1px;
+}
+
+.contact-us-img {
+  background: url(../assets/imgs/contact.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_contact_us_styles.scss */
@@ -1756,18 +1835,19 @@ footer p {
 }
 
 /* line 28, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_contact_us_styles.scss */
-.contact-content form input[type=text],
+.contact-content form input[type="text"],
 .contact-content form textarea {
   border: 2px solid #584096;
-  border-radius: .25rem;
-  padding: .5rem .75rem;
-  transition: border-color .25s ease-in-out;
+  border-radius: 0.25rem;
+  padding: 0.5rem 0.75rem;
+  transition: border-color 0.25s ease-in-out;
   box-shadow: none;
   outline: 0;
 }
 
 /* line 37, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_contact_us_styles.scss */
-.contact-content form input[type=text]:hover, .contact-content form input[type=text]:focus,
+.contact-content form input[type="text"]:hover,
+.contact-content form input[type="text"]:focus,
 .contact-content form textarea:hover,
 .contact-content form textarea:focus {
   border: 3px solid #584096;
@@ -1775,7 +1855,7 @@ footer p {
 }
 
 /* line 43, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_contact_us_styles.scss */
-.contact-content form input[type=text] {
+.contact-content form input[type="text"] {
   height: 40px;
 }
 
@@ -1794,12 +1874,12 @@ footer p {
 }
 
 /* line 58, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_contact_us_styles.scss */
-.contact-content form input[type=submit] {
+.contact-content form input[type="submit"] {
   padding: 10px 5px;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   width: 100px;
   background: #584096;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
   margin-top: 1.5rem;
 }

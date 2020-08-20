@@ -30,8 +30,8 @@
             <ul>
                 <a class="nav-link" href="./index.php?page=pages/about-us.php">About Us</a>
                 <a class="nav-link" href="./index.php?page=pages/our-services.php">Our Services</a>
-                <a class="nav-link" href="./index.php?page=./pages/testimonials.php">Testimonials</a> 
-                <a class="nav-link" href="./index.php?page=./pages/contact-us.php">Contact Us</a>
+                <a class="nav-link" href="./index.php?page=pages/testimonials.php">Testimonials</a> 
+                <a class="nav-link" href="./index.php?page=pages/contact-us.php">Contact Us</a>
                 <a class="nav-link" href="01603670909">
                     <i class="fas fa-phone"></i>
                     <strong>01603 670909</strong>
