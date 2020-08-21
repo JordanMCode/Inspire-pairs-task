@@ -6,7 +6,7 @@
                     <h1>Inspire
                         <br>
                         Norfolk</h1>
-                    <p class="banner-sub-header">Apprenticeships in Norfolk</p>
+                    <p class="banner-sub-header" id="thin-sub-header">Apprenticeships in Norfolk</p>
                     <span id="banner-line"></span>
                     <p class="banner-sub-header">Looking for an apprentice?</p>
                     <p id="banner-text">We work with small businesses to create apprenticeship positions, and work with
