@@ -17,7 +17,6 @@
     padding-left: 15px;
     margin: 0 auto;
 
-
     @media screen and (min-width: 576px) {
         max-width: 540px;
     }
@@ -46,7 +45,6 @@
 }
 
 .secondary-container p {
-
     @media screen and (min-width: 576px) {
         max-width: 540px;
     }
@@ -76,7 +74,7 @@
     margin: 36px 0;
     color: $purple;
 
-    @media screen and (min-width: 1000px){
+    @media screen and (min-width: 1000px) {
         font-size: 36px;
     }
 }
@@ -86,7 +84,7 @@
     margin: 0 0 16px;
     padding: 16px 0 0;
 
-    @media screen and (min-width: 1000px){
+    @media screen and (min-width: 1000px) {
         font-size: 22px;
     }
 }
@@ -112,9 +110,9 @@
     margin-right: auto;
     padding: 9px 34px;
     border-radius: 7px;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 
-    &:hover{
+    &:hover {
         background: $purple;
         color: white;
         border: 2px solid #fff;
