@@ -129,11 +129,20 @@
                 .service {
                     height: 550px;
                 }
+                .service:last-child{
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                }
             }
         }
         @media screen and (max-width: 800px) {
             .services-container {
                 grid-template-columns: 1fr !important;
+
+                .service:last-child{
+                    grid-column-start: 1;
+                    grid-column-end: 2;
+                }
             }
         }
         @media screen and (min-width: 768px) {

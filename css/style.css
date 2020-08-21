@@ -613,7 +613,7 @@ a {
   top: 36px;
 }
 
-@media screen and (min-width: 1255px) {
+@media screen and (min-width: 1300px) {
   /* line 58, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
   .burger-button {
     display: none;
@@ -705,7 +705,7 @@ a {
   transform: rotateZ(90deg);
 }
 
-@media screen and (min-width: 1255px) {
+@media screen and (min-width: 1300px) {
   /* line 96, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
   .full-nav-items {
     display: block;
@@ -1661,35 +1661,45 @@ footer p {
   .our-services #services .services-container .service {
     height: 550px;
   }
+  /* line 132, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  .our-services #services .services-container .service:last-child {
+    grid-column-start: 1;
+    grid-column-end: 3;
+  }
 }
 
 @media screen and (max-width: 800px) {
-  /* line 135, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  /* line 139, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
   .our-services #services .services-container {
     grid-template-columns: 1fr !important;
+  }
+  /* line 142, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  .our-services #services .services-container .service:last-child {
+    grid-column-start: 1;
+    grid-column-end: 2;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 140, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  /* line 149, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
   .our-services #services .services-container .service:hover .service-overlay {
     transform: translate(-10rem, -45rem) rotate(25deg);
   }
 }
 
 @media screen and (max-width: 340px) {
-  /* line 145, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  /* line 154, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
   .our-services #services .services-container .service {
     height: 600px;
   }
 }
 
-/* line 150, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 159, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services #blocks {
   margin: 1rem auto;
 }
 
-/* line 153, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 162, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services #blocks [class*="service-block"] {
   padding: 1rem;
   transition: all 0.8s ease-in-out;
@@ -1697,23 +1707,23 @@ footer p {
   opacity: 0;
 }
 
-/* line 159, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 168, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services #blocks .not-active {
   opacity: 0;
 }
 
-/* line 162, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 171, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services #blocks .active {
   opacity: 1;
 }
 
-/* line 167, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 176, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services .get-in-touch p {
   color: white;
   font-size: 18px;
 }
 
-/* line 172, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 181, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services .get-in-touch {
   background: #584096;
   display: flex;
@@ -1723,7 +1733,7 @@ footer p {
   padding: 40px 0;
 }
 
-/* line 180, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 189, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services .get-in-touch a {
   margin: 0 auto;
   cursor: pointer;
