@@ -113,16 +113,7 @@
                         transform: translateY(0);
                     }
                     .service-overlay {
-                        @media screen and (max-width: 800px) {
-                            transform: translate(-20rem, -45rem) rotate(25deg);
-                        }
-                        @media screen and (max-width: 1100px) {
-                            transform: translate(-5rem, -50rem) rotate(25deg);
-                            width: 1200px;
-                        }
-                        @media screen and (min-width: 1100px) {
-                            transform: translate(-20rem, -45rem) rotate(25deg);
-                        }
+                        transform: translate(-20rem, -45rem) rotate(25deg);
                     }
                 }
             }
@@ -152,6 +143,11 @@
                     grid-column-start: 1;
                     grid-column-end: 2;
                 }
+            }
+        }
+        @media screen and (min-width: 768px) {
+            .services-container .service:hover .service-overlay {
+                transform: translate(-10rem, -45rem) rotate(25deg);
             }
         }
         @media screen and (max-width: 340px) {
