@@ -525,7 +525,6 @@ a {
 /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .header-container {
   height: 103px;
-<<<<<<< Updated upstream
   margin: 0 auto;
 }
 
@@ -558,69 +557,6 @@ a {
 }
 
 /* line 22, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-  width: 60%;
-  margin: 0 auto;
-}
-
-@media screen and (max-width: 1900px) {
-  /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .header-container {
-    width: 55%;
-  }
-}
-
-@media screen and (max-width: 1750px) {
-  /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .header-container {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 1600px) {
-  /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .header-container {
-    width: 65%;
-  }
-}
-
-@media screen and (max-width: 1500px) {
-  /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .header-container {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 1400px) {
-  /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .header-container {
-    width: 75%;
-  }
-}
-
-@media screen and (max-width: 850px) {
-  /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .header-container {
-    width: 80%;
-  }
-}
-
-@media screen and (max-width: 550px) {
-  /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .header-container {
-    width: 90%;
-  }
-}
-
-@media screen and (max-width: 300px) {
-  /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .header-container {
-    width: 95%;
-  }
-}
-
-/* line 32, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 .header-items {
   width: 100%;
   height: 100%;
@@ -632,7 +568,6 @@ a {
   position: relative;
 }
 
-<<<<<<< Updated upstream
 @media screen and (min-width: 1200px) {
   /* line 22, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
   .header-items {
@@ -641,9 +576,6 @@ a {
 }
 
 /* line 37, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-/* line 43, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 #logo-container {
   display: flex;
   align-items: center;
@@ -651,7 +583,6 @@ a {
   min-width: 100px;
   height: auto;
 }
-<<<<<<< Updated upstream
 
 @media screen and (max-width: 1000px) {
   /* line 37, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
@@ -661,17 +592,6 @@ a {
 }
 
 /* line 49, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-
-@media screen and (max-width: 1000px) {
-  /* line 43, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  #logo-container {
-    margin-left: 20px;
-  }
-}
-
-/* line 55, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 #main-logo {
   height: auto;
   width: 80%;
@@ -681,11 +601,7 @@ a {
   cursor: pointer;
 }
 
-<<<<<<< Updated upstream
 /* line 58, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-/* line 64, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 .burger-button {
   display: block;
   position: absolute;
@@ -696,7 +612,6 @@ a {
   right: 36px;
   top: 36px;
 }
-<<<<<<< Updated upstream
 
 @media screen and (min-width: 1300px) {
   /* line 58, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
@@ -706,17 +621,6 @@ a {
 }
 
 /* line 73, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-
-@media screen and (min-width: 1300px) {
-  /* line 64, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .burger-button {
-    display: none;
-  }
-}
-
-/* line 79, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 #burger-line-1,
 #burger-line-2,
 #burger-line-3 {
@@ -728,47 +632,27 @@ a {
   left: 0;
 }
 
-<<<<<<< Updated upstream
 /* line 84, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-/* line 90, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 #burger-line-1 {
   top: 0%;
 }
 
-<<<<<<< Updated upstream
 /* line 88, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-/* line 94, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 #burger-line-2 {
   top: 40%;
 }
 
-<<<<<<< Updated upstream
 /* line 92, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-/* line 98, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 #burger-line-3 {
   top: 80%;
 }
 
-<<<<<<< Updated upstream
 /* line 96, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-/* line 102, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 .full-nav-items {
   display: none;
 }
 
-<<<<<<< Updated upstream
 /* line 99, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-/* line 105, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 .full-nav-items .nav-link {
   margin: 0 20px;
   font-size: 1.3rem;
@@ -777,47 +661,27 @@ a {
   padding-bottom: 5px;
 }
 
-<<<<<<< Updated upstream
 /* line 106, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-/* line 112, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 .full-nav-items .nav-link:hover {
   border-width: 3px;
 }
 
-<<<<<<< Updated upstream
 /* line 109, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-/* line 115, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 .full-nav-items .nav-link:hover:last-child {
   border-width: 0px;
 }
 
-<<<<<<< Updated upstream
 /* line 113, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-/* line 119, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 .full-nav-items .nav-link.active {
   border-width: 3px;
 }
 
-<<<<<<< Updated upstream
 /* line 117, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-/* line 123, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 .full-nav-items .nav-link:last-child {
   margin-right: 0;
 }
 
-<<<<<<< Updated upstream
 /* line 120, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-/* line 126, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 .full-nav-items .phone {
   display: inline;
   color: white;
@@ -826,7 +690,6 @@ a {
   border-radius: 5px;
   font-size: 1.1rem;
 }
-<<<<<<< Updated upstream
 
 /* line 127, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .full-nav-items .phone strong {
@@ -850,31 +713,6 @@ a {
 }
 
 /* line 145, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-=======
-
-/* line 133, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-.full-nav-items .phone strong {
-  margin-left: 5px;
-}
-
-/* line 136, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-.full-nav-items .phone i {
-  background: white;
-  color: #584096;
-  padding: 10px;
-  border-radius: 50%;
-  transform: rotateZ(90deg);
-}
-
-@media screen and (min-width: 1300px) {
-  /* line 102, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-  .full-nav-items {
-    display: block;
-  }
-}
-
-/* line 151, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
->>>>>>> Stashed changes
 .contact-button {
   display: flex;
   font-size: 24px;
@@ -889,7 +727,6 @@ a {
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
-<<<<<<< Updated upstream
 
 /* line 159, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
 .contact-button:hover {
@@ -897,15 +734,6 @@ a {
   background: #FFFFFF;
 }
 
-=======
-
-/* line 165, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_header-styles.scss */
-.contact-button:hover {
-  color: #584096;
-  background: #FFFFFF;
-}
-
->>>>>>> Stashed changes
 /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-container {
   width: 100%;
@@ -913,7 +741,6 @@ a {
   height: fit-content;
   text-align: left;
 }
-<<<<<<< Updated upstream
 
 @media screen and (min-width: 576px) {
   /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
@@ -924,18 +751,6 @@ a {
   }
 }
 
-=======
-
-@media screen and (min-width: 576px) {
-  /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
-  .footer-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
-}
-
->>>>>>> Stashed changes
 /* line 14, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/base/_footer-styles.scss */
 .footer-container a {
   color: #414012;
@@ -1065,7 +880,6 @@ footer p {
   padding-left: 15px;
   margin: 0 auto;
 }
-<<<<<<< Updated upstream
 
 @media screen and (min-width: 576px) {
   /* line 14, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
@@ -1081,23 +895,6 @@ footer p {
   }
 }
 
-=======
-
-@media screen and (min-width: 576px) {
-  /* line 14, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
-  .container {
-    max-width: 540px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  /* line 14, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
-  .container {
-    max-width: 720px;
-  }
-}
-
->>>>>>> Stashed changes
 @media screen and (min-width: 992px) {
   /* line 14, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
   .container {
@@ -1165,7 +962,6 @@ footer p {
   margin: 36px 0;
   color: #584096;
 }
-<<<<<<< Updated upstream
 
 @media screen and (min-width: 1000px) {
   /* line 72, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
@@ -1174,16 +970,6 @@ footer p {
   }
 }
 
-=======
-
-@media screen and (min-width: 1000px) {
-  /* line 72, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
-  .info-container h1 {
-    font-size: 36px;
-  }
-}
-
->>>>>>> Stashed changes
 /* line 82, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .info-container p {
   font-size: 17px;
@@ -1224,7 +1010,6 @@ footer p {
   border-radius: 7px;
   transition: all 0.2s ease-in-out;
 }
-<<<<<<< Updated upstream
 
 /* line 115, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
 .get-in-touch-btn:hover {
@@ -1234,17 +1019,6 @@ footer p {
   border-radius: 7px;
 }
 
-=======
-
-/* line 115, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
-.get-in-touch-btn:hover {
-  background: #584096;
-  color: white;
-  border: 2px solid #fff;
-  border-radius: 7px;
-}
-
->>>>>>> Stashed changes
 @media screen and (min-width: 768px) {
   /* line 102, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/utilities/_multi-page-styling.scss */
   .get-in-touch-btn {
@@ -1297,7 +1071,6 @@ footer p {
   position: relative;
 }
 
-<<<<<<< Updated upstream
 @media screen and (min-width: 576px) {
   /* line 27, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
   .landing-page .banner-content-container {
@@ -1327,52 +1100,6 @@ footer p {
 }
 
 /* line 49, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-@media screen and (max-width: 1900px) {
-  /* line 27, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-  .landing-page .banner-content-container {
-    width: 55%;
-  }
-}
-
-@media screen and (max-width: 1750px) {
-  /* line 27, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-  .landing-page .banner-content-container {
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 1600px) {
-  /* line 27, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-  .landing-page .banner-content-container {
-    width: 65%;
-  }
-}
-
-@media screen and (max-width: 1500px) {
-  /* line 27, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-  .landing-page .banner-content-container {
-    width: 70%;
-  }
-}
-
-@media screen and (max-width: 1400px) {
-  /* line 27, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-  .landing-page .banner-content-container {
-    width: 75%;
-  }
-}
-
-@media screen and (max-width: 1300px) {
-  /* line 27, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-  .landing-page .banner-content-container {
-    margin: 0;
-    width: 100%;
-  }
-}
-
-/* line 53, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .banner-content {
   display: flex;
   flex-direction: column;
@@ -1383,76 +1110,48 @@ footer p {
 }
 
 @media screen and (min-width: 576px) {
-<<<<<<< Updated upstream
   /* line 49, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 53, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page .banner-content {
     max-width: 540px;
   }
 }
 
 @media screen and (min-width: 768px) {
-<<<<<<< Updated upstream
   /* line 49, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 53, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page .banner-content {
     max-width: 720px;
   }
 }
 
 @media screen and (min-width: 992px) {
-<<<<<<< Updated upstream
   /* line 49, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 53, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page .banner-content {
     max-width: 960px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-<<<<<<< Updated upstream
   /* line 49, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 53, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page .banner-content {
     max-width: 1140px;
   }
 }
 
 @media screen and (min-width: 1300px) {
-<<<<<<< Updated upstream
   /* line 49, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 53, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page .banner-content {
     position: absolute;
     width: 500px;
     text-align: left;
   }
-<<<<<<< Updated upstream
   /* line 78, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 82, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page .banner-content #banner-line,
   .landing-page .banner-content a {
     margin-left: 0;
   }
 }
 
-<<<<<<< Updated upstream
 /* line 85, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 89, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .banner {
   display: flex;
   flex-direction: column;
@@ -1469,32 +1168,20 @@ footer p {
 }
 
 @media screen and (min-width: 576px) {
-<<<<<<< Updated upstream
   /* line 85, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 89, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page .banner {
     height: 665px;
   }
 }
 
 @media screen and (min-width: 1300px) {
-<<<<<<< Updated upstream
   /* line 85, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 89, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page .banner {
     background-image: url("../assets/imgs/banner-img-big.PNG");
   }
 }
 
-<<<<<<< Updated upstream
 /* line 107, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 111, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .banner h1 {
   text-transform: uppercase;
   font-size: 50px;
@@ -1505,7 +1192,6 @@ footer p {
   margin-top: 0.67rem;
 }
 
-<<<<<<< Updated upstream
 /* line 117, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .banner p {
   line-height: 29px;
@@ -1525,34 +1211,17 @@ footer p {
 }
 
 /* line 132, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 120, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-.landing-page .banner p {
-  line-height: 29px;
-  margin-bottom: 30px;
-}
-
-/* line 125, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page #banner-text {
   margin-top: 0;
 }
 
-<<<<<<< Updated upstream
 /* line 136, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 129, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .banner-sub-header {
   text-transform: uppercase;
   font-size: 18px;
 }
 
-<<<<<<< Updated upstream
 /* line 141, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 134, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page #banner-line {
   width: 90%;
   height: 2px;
@@ -1560,11 +1229,7 @@ footer p {
   margin: 5px auto 5px auto;
 }
 
-<<<<<<< Updated upstream
 /* line 148, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 141, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .welcome h3 {
   font-weight: 800;
   color: #584096;
@@ -1572,30 +1237,18 @@ footer p {
   margin-bottom: 30px;
 }
 
-<<<<<<< Updated upstream
 /* line 155, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 148, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .welcome p {
   font-size: 1.2rem;
 }
 
-<<<<<<< Updated upstream
 /* line 159, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 152, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .welcome {
   margin-bottom: 40px;
   text-align: center;
 }
 
-<<<<<<< Updated upstream
 /* line 164, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 157, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .services {
   display: flex;
   flex-direction: column;
@@ -1606,22 +1259,14 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-<<<<<<< Updated upstream
   /* line 164, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 157, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page .services {
     flex-direction: row;
     flex-wrap: wrap;
   }
 }
 
-<<<<<<< Updated upstream
 /* line 178, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 171, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .services h3 {
   margin-bottom: 1.5rem;
   margin-top: 0;
@@ -1630,11 +1275,7 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-<<<<<<< Updated upstream
   /* line 178, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 171, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page .services h3 {
     padding-bottom: 24px;
     margin-bottom: 50px;
@@ -1643,11 +1284,7 @@ footer p {
   }
 }
 
-<<<<<<< Updated upstream
 /* line 192, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 185, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .services h3::after {
   display: block;
   content: "";
@@ -1658,22 +1295,14 @@ footer p {
   position: absolute;
 }
 
-<<<<<<< Updated upstream
 /* line 202, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 195, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .services p {
   margin: 0 0 16px;
   padding-top: 8px;
   text-align: left;
 }
 
-<<<<<<< Updated upstream
 /* line 208, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 201, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .service-text {
   display: flex;
   flex-direction: row;
@@ -1681,11 +1310,7 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-<<<<<<< Updated upstream
   /* line 208, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 201, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page .service-text {
     max-width: 100%;
     flex-wrap: nowrap;
@@ -1693,22 +1318,14 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-<<<<<<< Updated upstream
   /* line 219, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 212, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page hr {
     display: none;
   }
 }
 
 @media screen and (min-width: 768px) {
-<<<<<<< Updated upstream
   /* line 225, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 218, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page #service-card-1,
   .landing-page #service-card-2 {
     max-width: 50%;
@@ -1717,11 +1334,7 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-<<<<<<< Updated upstream
   /* line 225, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 218, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page #service-card-1,
   .landing-page #service-card-2 {
     height: 500px;
@@ -1729,11 +1342,7 @@ footer p {
 }
 
 @media screen and (min-width: 992px) {
-<<<<<<< Updated upstream
   /* line 237, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 230, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page #service-card-1,
   .landing-page #service-card-2,
   .landing-page #service-card-3 {
@@ -1742,74 +1351,46 @@ footer p {
 }
 
 @media screen and (min-width: 992px) {
-<<<<<<< Updated upstream
   /* line 245, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 238, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page #service-card-2 {
     padding-right: 15px;
   }
 }
 
 @media screen and (min-width: 992px) {
-<<<<<<< Updated upstream
   /* line 251, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 244, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page #service-card-3 {
     padding-left: 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
-<<<<<<< Updated upstream
   /* line 257, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 250, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page #service-card-1 {
     padding-right: 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
-<<<<<<< Updated upstream
   /* line 263, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 256, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page #service-card-2 {
     padding-left: 15px;
   }
 }
 
-<<<<<<< Updated upstream
 /* line 269, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 262, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .service-card {
   margin-bottom: 3rem;
 }
 
-<<<<<<< Updated upstream
 /* line 273, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 266, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .service-card-content {
   background: white;
   height: 100%;
   cursor: pointer;
 }
 
-<<<<<<< Updated upstream
 /* line 279, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 272, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .service-card-img-1,
 .landing-page .service-card-img-2,
 .landing-page .service-card-img-3 {
@@ -1820,38 +1401,22 @@ footer p {
   background-position: 50%;
 }
 
-<<<<<<< Updated upstream
 /* line 289, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 282, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .service-card-img-1 {
   background-image: url("../assets/imgs/apprentice.jpg");
 }
 
-<<<<<<< Updated upstream
 /* line 293, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 286, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .service-card-img-2 {
   background-image: url("../assets/imgs/globe.jpg");
 }
 
-<<<<<<< Updated upstream
 /* line 297, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 290, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .service-card-img-3 {
   background-image: url("../assets/imgs/bespoke.jpg");
 }
 
-<<<<<<< Updated upstream
 /* line 301, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 294, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .icon {
   width: 92px;
   height: 92px;
@@ -1863,11 +1428,7 @@ footer p {
   background-color: #584096;
 }
 
-<<<<<<< Updated upstream
 /* line 312, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 305, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .fas,
 .landing-page .far {
   font-size: 50px;
@@ -1877,11 +1438,7 @@ footer p {
   transform: translate(-50%, 50%);
 }
 
-<<<<<<< Updated upstream
 /* line 321, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 314, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .service-card-text h4 {
   text-transform: uppercase;
   font-size: 26px;
@@ -1891,11 +1448,7 @@ footer p {
   font-weight: 800;
 }
 
-<<<<<<< Updated upstream
 /* line 330, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 323, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .service-card-text p {
   font-size: 17px;
   padding-top: 8px;
@@ -1904,11 +1457,7 @@ footer p {
   text-align: center;
 }
 
-<<<<<<< Updated upstream
 /* line 338, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 331, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .service-card-text {
   display: flex;
   flex-direction: column;
@@ -1917,21 +1466,13 @@ footer p {
   position: relative;
 }
 
-<<<<<<< Updated upstream
 /* line 346, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 339, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .secondary-info {
   text-align: center;
   padding-bottom: 20px;
 }
 
-<<<<<<< Updated upstream
 /* line 351, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 344, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .secondary-info h3 {
   font-size: 1.75rem;
   color: #584096;
@@ -1939,33 +1480,21 @@ footer p {
   margin-bottom: 30px;
 }
 
-<<<<<<< Updated upstream
 /* line 358, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 351, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .secondary-info p {
   font-size: 19px;
   margin-bottom: 1rem;
   margin-top: 0;
 }
 
-<<<<<<< Updated upstream
 /* line 364, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 357, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .get-in-touch p {
   color: white;
   font-size: 18px;
   text-align: left;
 }
 
-<<<<<<< Updated upstream
 /* line 370, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-/* line 363, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
 .landing-page .get-in-touch {
   background: #584096;
   display: flex;
@@ -1976,11 +1505,7 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-<<<<<<< Updated upstream
   /* line 370, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
-=======
-  /* line 363, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
->>>>>>> Stashed changes
   .landing-page .get-in-touch {
     flex-direction: row;
     flex-wrap: nowrap;
@@ -2128,28 +1653,45 @@ footer p {
   transform: translateY(0);
 }
 
-/* line 115, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
-.our-services #services .services-container .service:hover .service-overlay {
-  transform: translate(-20rem, -45rem) rotate(25deg);
+@media screen and (max-width: 800px) {
+  /* line 115, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  .our-services #services .services-container .service:hover .service-overlay {
+    transform: translate(-20rem, -45rem) rotate(25deg);
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  /* line 115, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  .our-services #services .services-container .service:hover .service-overlay {
+    transform: translate(-5rem, -50rem) rotate(25deg);
+    width: 1200px;
+  }
+}
+
+@media screen and (min-width: 1100px) {
+  /* line 115, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  .our-services #services .services-container .service:hover .service-overlay {
+    transform: translate(-20rem, -45rem) rotate(25deg);
+  }
 }
 
 @media screen and (min-width: 1200px) {
-  /* line 122, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  /* line 131, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
   .our-services #services .services-container .service {
     height: 550px;
   }
 }
 
 @media screen and (max-width: 1100px) {
-  /* line 127, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  /* line 136, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
   .our-services #services .services-container {
     grid-template-columns: repeat(2, 1fr) !important;
   }
-  /* line 129, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  /* line 138, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
   .our-services #services .services-container .service {
     height: 550px;
   }
-  /* line 132, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  /* line 141, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
   .our-services #services .services-container .service:last-child {
     grid-column-start: 1;
     grid-column-end: 3;
@@ -2157,37 +1699,30 @@ footer p {
 }
 
 @media screen and (max-width: 800px) {
-  /* line 139, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  /* line 148, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
   .our-services #services .services-container {
     grid-template-columns: 1fr !important;
   }
-  /* line 142, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  /* line 151, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
   .our-services #services .services-container .service:last-child {
     grid-column-start: 1;
     grid-column-end: 2;
   }
 }
 
-@media screen and (min-width: 768px) {
-  /* line 149, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
-  .our-services #services .services-container .service:hover .service-overlay {
-    transform: translate(-10rem, -45rem) rotate(25deg);
-  }
-}
-
 @media screen and (max-width: 340px) {
-  /* line 154, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+  /* line 158, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
   .our-services #services .services-container .service {
     height: 600px;
   }
 }
 
-/* line 159, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 163, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services #blocks {
   margin: 1rem auto;
 }
 
-/* line 162, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 166, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services #blocks [class*="service-block"] {
   padding: 1rem;
   transition: all 0.8s ease-in-out;
@@ -2195,23 +1730,23 @@ footer p {
   opacity: 0;
 }
 
-/* line 168, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 172, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services #blocks .not-active {
   opacity: 0;
 }
 
-/* line 171, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 175, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services #blocks .active {
   opacity: 1;
 }
 
-/* line 176, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 180, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services .get-in-touch p {
   color: white;
   font-size: 18px;
 }
 
-/* line 181, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 185, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services .get-in-touch {
   background: #584096;
   display: flex;
@@ -2220,30 +1755,18 @@ footer p {
   text-align: center;
   padding: 40px 0;
 }
-<<<<<<< Updated upstream
 
-/* line 189, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
+/* line 193, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
 .our-services .get-in-touch a {
   margin: 0 auto;
   cursor: pointer;
   height: 55px;
 }
 
-=======
-
-/* line 189, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_our-services.scss */
-.our-services .get-in-touch a {
-  margin: 0 auto;
-  cursor: pointer;
-  height: 55px;
-}
-
->>>>>>> Stashed changes
 /* line 1, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_about-us-styles.scss */
 .about-us {
   font-size: 100px;
 }
-<<<<<<< Updated upstream
 
 /* line 5, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_about-us-styles.scss */
 .about-us .about-us-img {
@@ -2252,16 +1775,6 @@ footer p {
   background-size: cover;
 }
 
-=======
-
-/* line 5, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_about-us-styles.scss */
-.about-us .about-us-img {
-  background: url(../assets/imgs/about.jpeg);
-  background-position: center;
-  background-size: cover;
-}
-
->>>>>>> Stashed changes
 /* line 11, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_about-us-styles.scss */
 .about-us .info-container {
   padding-bottom: 25px;
