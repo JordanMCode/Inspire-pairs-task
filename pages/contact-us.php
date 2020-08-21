@@ -10,8 +10,10 @@
         </div>
         <h2>Looking for Support? </h2>
         <div>
-            <p>Whether you’re an employer considering recruiting an apprentice, an individual looking for work or you’re in employment and you may be struggling in the workplace we can help you.</p>
-            <b>Either call us on one of the numbers above or fill out the contact form and one of our team will call you back.</b>
+            <p>Whether you’re an employer considering recruiting an apprentice, an individual looking for work or you’re
+                in employment and you may be struggling in the workplace we can help you.</p>
+            <b>Either call us on one of the numbers above or fill out the contact form and one of our team will call you
+                back.</b>
         </div>
     </div>
     <form action="contact-process.php" method="POST">
@@ -30,11 +32,12 @@
         <label>GDPR Agreement</label>
         <div class="gdpr-container">
             <input type="checkbox" id="gdpr" name="gdpr" required>
-            <label for="gdpr">I consent to having this website store my submitted information so they can respond to my enquiry.</label><br>
+            <label for="gdpr">I consent to having this website store my submitted information so they can respond to my
+                enquiry.</label><br>
         </div>
 
         <input type="submit" value="Submit">
-    
+
         <?php 
             $fullUrl = "https://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
             if (strpos($fullUrl, "valid=firstError") == true){
@@ -57,4 +60,11 @@
             } 
         ?>
     </form>
+</div>
+<div class="bg-container-purple">
+    <div class="secondary-container container">
+        <p>When we needed to add to our team we considered the apprentice route. Inspire Norfolk had supported a
+            colleague, so we contacted them immediately. They were so knowledgeable and helped us every step of the
+            way, from getting appropriate C.V’s sent to us to arranging the job description.</p>
+    </div>
 </div>

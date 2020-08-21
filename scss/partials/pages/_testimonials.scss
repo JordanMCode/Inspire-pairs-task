@@ -1,7 +1,7 @@
 .testimonials {
     p {
         font-size: 17px;
-        @media screen and (min-width: 1000px){
+        @media screen and (min-width: 1000px) {
             font-size: 22px;
         }
     }
@@ -15,15 +15,17 @@
     .container {
         padding: 20px;
 
-        h1{
+        h1 {
             font-size: 30px;
+            font-weight: 800;
+            color: $purple;
 
-            @media screen and (min-width: 1000px){
+            @media screen and (min-width: 1000px) {
                 font-size: 36px;
             }
         }
     }
-    .testimonials-title-container{
+    .testimonials-title-container {
         padding-bottom: 1px;
     }
 }

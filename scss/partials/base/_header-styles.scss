@@ -1,35 +1,33 @@
-
 .header-container {
     height: 103px;
     width: 60%;
     margin: 0 auto;
 
-    @media screen and (max-width: 1900px){
+    @media screen and (max-width: 1900px) {
         width: 55%;
     }
-    @media screen and (max-width: 1750px){
+    @media screen and (max-width: 1750px) {
         width: 60%;
     }
-    @media screen and (max-width: 1600px){
+    @media screen and (max-width: 1600px) {
         width: 65%;
     }
-    @media screen and (max-width: 1500px){
+    @media screen and (max-width: 1500px) {
         width: 70%;
     }
-    @media screen and (max-width: 1400px){
+    @media screen and (max-width: 1400px) {
         width: 75%;
     }
-    @media screen and (max-width: 850px){
+    @media screen and (max-width: 850px) {
         width: 80%;
     }
-    @media screen and (max-width: 550px){
+    @media screen and (max-width: 550px) {
         width: 90%;
     }
-    @media screen and (max-width: 300px){
+    @media screen and (max-width: 300px) {
         width: 95%;
     }
 }
-
 
 .header-items {
     width: 100%;
@@ -49,7 +47,7 @@
     min-width: 100px;
     height: auto;
 
-    @media screen and (max-width: 1000px){
+    @media screen and (max-width: 1000px) {
         margin-left: 20px;
     }
 }
@@ -73,7 +71,7 @@
     right: 36px;
     top: 36px;
 
-    @media screen and (min-width: 1255px){
+    @media screen and (min-width: 1255px) {
         display: none;
     }
 }
@@ -104,38 +102,38 @@
 .full-nav-items {
     display: none;
 
-    .nav-link{
+    .nav-link {
         margin: 0 20px;
         font-size: 1.3rem;
         border-bottom: solid 0px $purple;
         transition: border-width 0.1s linear;
         padding-bottom: 5px;
 
-        &:hover{
+        &:hover {
             border-width: 3px;
         }
-        &:hover:last-child{
+        &:hover:last-child {
             border-width: 0px;
         }
 
-        &.active{
+        &.active {
             border-width: 3px;
         }
     }
-    .nav-link:last-child{
-        margin: 0;
+    .nav-link:last-child {
+        margin-right: 0;
     }
-    .phone{
+    .phone {
         display: inline;
         color: white;
         background: $purple;
         padding: 15px;
         border-radius: 5px;
         font-size: 1.1rem;
-        strong{
+        strong {
             margin-left: 5px;
         }
-        i{
+        i {
             background: white;
             color: $purple;
             padding: 10px;
@@ -145,13 +143,10 @@
         }
     }
 
-    @media screen and (min-width: 1255px){
+    @media screen and (min-width: 1255px) {
         display: block;
     }
 }
-
-
-
 
 .contact-button {
     display: flex;
@@ -164,10 +159,10 @@
     font-weight: 500;
     margin: 0 auto 0.67rem auto;
     height: 60px;
-    transition: all .2s ease-in-out;
+    transition: all 0.2s ease-in-out;
     cursor: pointer;
 
-    &:hover{
+    &:hover {
         color: $purple;
         background: $white;
     }
