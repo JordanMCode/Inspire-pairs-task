@@ -1184,31 +1184,44 @@ footer p {
 /* line 107, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .banner h1 {
   text-transform: uppercase;
-  font-size: 35px;
-  font-weight: 800;
+  font-size: 50px;
+  font-weight: 700;
   line-height: 1.2;
+  letter-spacing: 2px;
   margin-bottom: 0;
   margin-top: 0.67rem;
 }
 
-/* line 116, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 117, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .banner p {
   line-height: 29px;
   margin-bottom: 30px;
+  font-size: 24px;
 }
 
-/* line 121, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 122, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+.landing-page .banner p.banner-sub-header {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/* line 128, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+.landing-page #thin-sub-header {
+  font-weight: 300;
+}
+
+/* line 132, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page #banner-text {
   margin-top: 0;
 }
 
-/* line 125, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 136, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .banner-sub-header {
   text-transform: uppercase;
   font-size: 18px;
 }
 
-/* line 130, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 141, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page #banner-line {
   width: 90%;
   height: 2px;
@@ -1216,7 +1229,7 @@ footer p {
   margin: 5px auto 5px auto;
 }
 
-/* line 137, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 148, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .welcome h3 {
   font-weight: 800;
   color: #584096;
@@ -1224,18 +1237,18 @@ footer p {
   margin-bottom: 30px;
 }
 
-/* line 144, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 155, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .welcome p {
   font-size: 1.2rem;
 }
 
-/* line 148, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 159, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .welcome {
   margin-bottom: 40px;
   text-align: center;
 }
 
-/* line 153, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 164, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .services {
   display: flex;
   flex-direction: column;
@@ -1246,14 +1259,14 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 153, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+  /* line 164, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
   .landing-page .services {
     flex-direction: row;
     flex-wrap: wrap;
   }
 }
 
-/* line 167, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 178, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .services h3 {
   margin-bottom: 1.5rem;
   margin-top: 0;
@@ -1262,7 +1275,7 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 167, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+  /* line 178, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
   .landing-page .services h3 {
     padding-bottom: 24px;
     margin-bottom: 50px;
@@ -1271,7 +1284,7 @@ footer p {
   }
 }
 
-/* line 181, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 192, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .services h3::after {
   display: block;
   content: "";
@@ -1282,14 +1295,14 @@ footer p {
   position: absolute;
 }
 
-/* line 191, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 202, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .services p {
   margin: 0 0 16px;
   padding-top: 8px;
   text-align: left;
 }
 
-/* line 197, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 208, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .service-text {
   display: flex;
   flex-direction: row;
@@ -1297,7 +1310,7 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 197, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+  /* line 208, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
   .landing-page .service-text {
     max-width: 100%;
     flex-wrap: nowrap;
@@ -1305,14 +1318,14 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 208, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+  /* line 219, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
   .landing-page hr {
     display: none;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 214, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+  /* line 225, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
   .landing-page #service-card-1,
   .landing-page #service-card-2 {
     max-width: 50%;
@@ -1321,7 +1334,7 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 214, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+  /* line 225, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
   .landing-page #service-card-1,
   .landing-page #service-card-2 {
     height: 500px;
@@ -1329,7 +1342,7 @@ footer p {
 }
 
 @media screen and (min-width: 992px) {
-  /* line 226, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+  /* line 237, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
   .landing-page #service-card-1,
   .landing-page #service-card-2,
   .landing-page #service-card-3 {
@@ -1338,46 +1351,46 @@ footer p {
 }
 
 @media screen and (min-width: 992px) {
-  /* line 234, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+  /* line 245, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
   .landing-page #service-card-2 {
     padding-right: 15px;
   }
 }
 
 @media screen and (min-width: 992px) {
-  /* line 240, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+  /* line 251, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
   .landing-page #service-card-3 {
     padding-left: 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 246, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+  /* line 257, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
   .landing-page #service-card-1 {
     padding-right: 15px;
   }
 }
 
 @media screen and (min-width: 768px) {
-  /* line 252, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+  /* line 263, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
   .landing-page #service-card-2 {
     padding-left: 15px;
   }
 }
 
-/* line 258, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 269, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .service-card {
   margin-bottom: 3rem;
 }
 
-/* line 262, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 273, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .service-card-content {
   background: white;
   height: 100%;
   cursor: pointer;
 }
 
-/* line 268, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 279, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .service-card-img-1,
 .landing-page .service-card-img-2,
 .landing-page .service-card-img-3 {
@@ -1388,22 +1401,22 @@ footer p {
   background-position: 50%;
 }
 
-/* line 278, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 289, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .service-card-img-1 {
   background-image: url("../assets/imgs/apprentice.jpg");
 }
 
-/* line 282, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 293, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .service-card-img-2 {
   background-image: url("../assets/imgs/globe.jpg");
 }
 
-/* line 286, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 297, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .service-card-img-3 {
   background-image: url("../assets/imgs/bespoke.jpg");
 }
 
-/* line 290, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 301, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .icon {
   width: 92px;
   height: 92px;
@@ -1415,7 +1428,7 @@ footer p {
   background-color: #584096;
 }
 
-/* line 301, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 312, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .fas,
 .landing-page .far {
   font-size: 50px;
@@ -1425,7 +1438,7 @@ footer p {
   transform: translate(-50%, 50%);
 }
 
-/* line 310, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 321, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .service-card-text h4 {
   text-transform: uppercase;
   font-size: 26px;
@@ -1435,7 +1448,7 @@ footer p {
   font-weight: 800;
 }
 
-/* line 319, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 330, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .service-card-text p {
   font-size: 17px;
   padding-top: 8px;
@@ -1444,7 +1457,7 @@ footer p {
   text-align: center;
 }
 
-/* line 327, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 338, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .service-card-text {
   display: flex;
   flex-direction: column;
@@ -1453,13 +1466,13 @@ footer p {
   position: relative;
 }
 
-/* line 335, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 346, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .secondary-info {
   text-align: center;
   padding-bottom: 20px;
 }
 
-/* line 340, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 351, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .secondary-info h3 {
   font-size: 1.75rem;
   color: #584096;
@@ -1467,21 +1480,21 @@ footer p {
   margin-bottom: 30px;
 }
 
-/* line 347, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 358, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .secondary-info p {
   font-size: 19px;
   margin-bottom: 1rem;
   margin-top: 0;
 }
 
-/* line 353, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 364, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .get-in-touch p {
   color: white;
   font-size: 18px;
   text-align: left;
 }
 
-/* line 359, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+/* line 370, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
 .landing-page .get-in-touch {
   background: #584096;
   display: flex;
@@ -1492,7 +1505,7 @@ footer p {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 359, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
+  /* line 370, C:/xampp/htdocs/Inspire/Inspire-pairs-task/scss/partials/pages/_landing-page.scss */
   .landing-page .get-in-touch {
     flex-direction: row;
     flex-wrap: nowrap;
